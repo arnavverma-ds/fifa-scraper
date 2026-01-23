@@ -1,0 +1,17 @@
+{
+  "name": "fifa-hospitality-scraper",
+  "version": "1.0.0",
+  "description": "Automated scraper for FIFA World Cup 2026 hospitality ticket prices",
+  "main": "scraper.js",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "update-sheets": "node update-sheets.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.6.1",
+    "googleapis": "^129.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
