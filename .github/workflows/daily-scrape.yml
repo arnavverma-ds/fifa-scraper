@@ -29,16 +29,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/
-          git diff --staged --quiet || git commit -m "📊 Update FIFA data - $(date +'%Y-%m-%d %H:%M')"
+          git diff --staged --quiet || git commit -m "Update FIFA data - $(date +'%Y-%m-%d %H:%M')"
           git push
-```
-
-4. Click **"Commit changes"**
-
-5. Go to **Actions** → **Run workflow** to test
-
----
-
-This removes the Google Sheets step. Now the flow is:
-```
-Scrape → Save to GitHub → Apps Script pulls to Sheets
