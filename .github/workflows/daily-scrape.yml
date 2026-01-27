@@ -1,11 +1,8 @@
 name: Daily FIFA Scraper
 
-# Runs every day at 6:00 AM IST (12:30 AM UTC)
 on:
   schedule:
     - cron: '30 0 * * *'
-  
-  # Also allow manual trigger
   workflow_dispatch:
 
 jobs:
@@ -13,33 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      # 1. Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      # 3. Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 4. Run the scraper
       - name: Run FIFA Scraper
         run: npm run scrape
 
-      # 5. Upload data to Google Sheets (optional)
-      - name: Update Google Sheets
-        if: env.GOOGLE_CREDENTIALS != ''
-        env:
-          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
-          SHEET_ID: ${{ secrets.SHEET_ID }}
-        run: npm run update-sheets
-
-      # 6. Commit and push the new data
       - name: Commit and push data
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -47,3 +31,14 @@ jobs:
           git add data/
           git diff --staged --quiet || git commit -m "📊 Update FIFA data - $(date +'%Y-%m-%d %H:%M')"
           git push
+```
+
+4. Click **"Commit changes"**
+
+5. Go to **Actions** → **Run workflow** to test
+
+---
+
+This removes the Google Sheets step. Now the flow is:
+```
+Scrape → Save to GitHub → Apps Script pulls to Sheets
