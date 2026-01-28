@@ -54,7 +54,7 @@ async function scrapeHospitalityData() {
       const countryCode = country.code;
       const matches = await page.evaluate(async (countryCode) => {
         // Fetch all matches
-        const matchRes = await fetch('/next-api/matches-all?productCode=26FWC', {
+        const matchRes = await fetch('/next-api/matches-all?productCode=26FWC&productType=5', {
           headers: { 'country-tag': countryCode, 'language-tag': 'en' }
         });
         const rawMatches = await matchRes.json();
