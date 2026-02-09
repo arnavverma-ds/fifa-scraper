@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-02-09T03:32:42.322Z",
+  "scrapedAt": "2026-02-09T10:03:08.720Z",
   "exchangeRates": {
     "USD": 1,
     "AED": 3.67,
@@ -168,7 +168,7 @@
     "ZWG": 25.59,
     "ZWL": 25.59
   },
-  "totalMatchesWithPricing": 99,
+  "totalMatchesWithPricing": 100,
   "matches": [
     {
       "performanceId": 10229203836811,
@@ -5171,6 +5171,62 @@
           "priceString": "Starting at $3,500 USD / per person",
           "priceNumber": 3500,
           "priceUSD": 3500
+        }
+      ],
+      "portal": "United States",
+      "originalCurrency": "USD"
+    },
+    {
+      "performanceId": 10229203824835,
+      "matchNumber": 98,
+      "stage": "QUARTER-FINALS",
+      "hostTeam": {
+        "name": "W93",
+        "code": "W93"
+      },
+      "opposingTeam": {
+        "name": "W94",
+        "code": "W94"
+      },
+      "venue": {
+        "name": "Los Angeles Stadium",
+        "code": "NN_LA",
+        "town": "Inglewood",
+        "country": "United States"
+      },
+      "matchDate": "July 10",
+      "matchDayTime": "Friday, 12pm PT",
+      "countryCode": "US",
+      "lounges": [
+        {
+          "title": "Pitchside Lounge",
+          "priceString": "Starting at $6,850 USD / per person",
+          "priceNumber": 6850,
+          "priceUSD": 6850
+        },
+        {
+          "title": "VIP ",
+          "priceString": "Starting at $5,950 USD / per person",
+          "priceNumber": 5950,
+          "priceUSD": 5950
+        },
+        {
+          "title": "Trophy Lounge",
+          "priceString": "Starting at $4,800 USD / per person",
+          "priceNumber": 4800,
+          "priceUSD": 4800
+        },
+        {
+          "title": "Champions Club",
+          "priceString": "Starting at $4,500 USD / per person",
+          "priceNumber": 4500,
+          "priceUSD": 4500
+        },
+        {
+          "title": "FIFA Pavilion",
+          "priceString": "Starting at $4,200 USD / per person",
+          "priceNumber": 4200,
+          "priceUSD": 4200
         }
       ],
       "portal": "United States",
