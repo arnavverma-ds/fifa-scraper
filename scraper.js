@@ -1,6 +1,13 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 
+// All 3 host countries
+const COUNTRIES = [
+  { code: 'us', name: 'United States', currency: 'USD' },
+  { code: 'ca', name: 'Canada', currency: 'CAD' },
+  { code: 'mx', name: 'Mexico', currency: 'MXN' }
+];
+
 // Helper: Fetch live exchange rates (Base: USD)
 async function getExchangeRates() {
   try {
@@ -15,8 +22,8 @@ async function getExchangeRates() {
   }
 }
 
-// Helper: Get currency based on venue country
-function getCurrencyByCountry(venueCountry) {
+// Helper: Get currency based on VENUE country
+function getCurrencyByVenueCountry(venueCountry) {
   if (venueCountry === 'Mexico') return 'MXN';
   if (venueCountry === 'Canada') return 'CAD';
   return 'USD';
@@ -63,98 +70,111 @@ async function scrapeHospitalityData() {
   });
 
   try {
-    // Scrape from Mexico portal - it shows ALL matches
-    console.log(`\n🌍 Scraping from Mexico portal (shows all matches)...`);
-    
-    const page = await browser.newPage();
-    
-    await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
-    await page.setExtraHTTPHeaders({
-      'Accept-Language': 'en-US,en;q=0.9',
-      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    });
-
-    console.log(`📡 Navigating to FIFA Mexico website...`);
-    await page.goto('https://fifaworldcup26.hospitality.fifa.com/mx/en/choose-matches', {
-      waitUntil: 'networkidle2',
-      timeout: 60000
-    });
-
-    await page.waitForTimeout(5000);
-    console.log('✅ Page loaded');
-
-    console.log('🔍 Fetching match data from API...');
-    
-    const matches = await page.evaluate(async () => {
-      const matchRes = await fetch('/next-api/matches-all?productCode=26FWC&productType=5', {
-        headers: { 'country-tag': 'mx', 'language-tag': 'en' }
-      });
-      const rawMatches = await matchRes.json();
-      
-      return rawMatches.filter(m => m.MatchNumber).map(m => ({
-        matchNumber: m.MatchNumber,
-        stage: m.Stage || '',
-        hostTeam: m.HostTeam?.ExternalName || 'TBD',
-        opposingTeam: m.OpposingTeam?.ExternalName || 'TBD',
-        venue: m.Venue?.Name || '',
-        city: m.Venue?.Town || '',
-        venueCountry: m.Venue?.Country || '',
-        matchDate: m.MatchDate || '',
-        matchDayTime: m.MatchDayTime || '',
-        prices: m.Prices || []
-      }));
-    });
-
-    console.log(`✅ Found ${matches.length} matches`);
-    
-    await page.close();
-
-    // Process matches
     let allMatches = [];
-    let matchesWithPricing = 0;
-    
-    for (const match of matches) {
-      const priceInfo = getLowestAvailablePrice(match.prices);
+
+    for (const country of COUNTRIES) {
+      console.log(`\n🌍 Scraping ${country.name} (${country.code.toUpperCase()})...`);
       
-      if (priceInfo.price !== null) {
-        matchesWithPricing++;
-        
-        // Currency based on VENUE COUNTRY (not portal!)
-        const currency = getCurrencyByCountry(match.venueCountry);
-        
-        // Convert to USD based on venue country
-        let priceUSD = priceInfo.price;
-        if (currency === 'MXN') {
-          priceUSD = Math.round(priceInfo.price / rates.MXN);
-        } else if (currency === 'CAD') {
-          priceUSD = Math.round(priceInfo.price / rates.CAD);
-        }
-        // USD stays as is
-        
-        allMatches.push({
-          matchNumber: match.matchNumber,
-          stage: match.stage,
-          hostTeam: match.hostTeam,
-          opposingTeam: match.opposingTeam,
-          venue: match.venue,
-          city: match.city,
-          country: match.venueCountry,
-          matchDate: match.matchDate,
-          matchDayTime: match.matchDayTime,
-          startingPrice: priceInfo.price,
-          startingLounge: priceInfo.loungeName,
-          originalCurrency: currency,
-          priceUSD: priceUSD
+      const page = await browser.newPage();
+      
+      await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
+      await page.setExtraHTTPHeaders({
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+      });
+
+      console.log(`📡 Navigating to FIFA ${country.name} website...`);
+      await page.goto(`https://fifaworldcup26.hospitality.fifa.com/${country.code}/en/choose-matches`, {
+        waitUntil: 'networkidle2',
+        timeout: 60000
+      });
+
+      await page.waitForTimeout(5000);
+      console.log('✅ Page loaded');
+
+      console.log('🔍 Fetching match data from API...');
+      const countryCode = country.code;
+      
+      const matches = await page.evaluate(async (countryCode) => {
+        const matchRes = await fetch('/next-api/matches-all?productCode=26FWC&productType=5', {
+          headers: { 'country-tag': countryCode, 'language-tag': 'en' }
         });
+        const rawMatches = await matchRes.json();
+        
+        return rawMatches.filter(m => m.MatchNumber).map(m => ({
+          matchNumber: m.MatchNumber,
+          stage: m.Stage || '',
+          hostTeam: m.HostTeam?.ExternalName || 'TBD',
+          opposingTeam: m.OpposingTeam?.ExternalName || 'TBD',
+          venue: m.Venue?.Name || '',
+          city: m.Venue?.Town || '',
+          country: m.Venue?.Country || '',
+          matchDate: m.MatchDate || '',
+          matchDayTime: m.MatchDayTime || '',
+          isAvailable: m.IsAvailable || false,
+          prices: m.Prices || []
+        }));
+      }, countryCode);
+
+      console.log(`✅ Found ${matches.length} matches on ${country.code.toUpperCase()} site`);
+
+      let matchesWithPricing = 0;
+      
+      for (const match of matches) {
+        const priceInfo = getLowestAvailablePrice(match.prices);
+        
+        if (priceInfo.price !== null) {
+          matchesWithPricing++;
+          
+          // FIXED: Currency based on VENUE COUNTRY, not portal!
+          const currency = getCurrencyByVenueCountry(match.country);
+          
+          // Convert to USD only if not already USD
+          let priceUSD = priceInfo.price;
+          if (currency === 'MXN') {
+            priceUSD = Math.round(priceInfo.price / rates.MXN);
+          } else if (currency === 'CAD') {
+            priceUSD = Math.round(priceInfo.price / rates.CAD);
+          }
+          // USD stays as-is
+          
+          allMatches.push({
+            matchNumber: match.matchNumber,
+            stage: match.stage,
+            hostTeam: match.hostTeam,
+            opposingTeam: match.opposingTeam,
+            venue: match.venue,
+            city: match.city,
+            country: match.country,
+            matchDate: match.matchDate,
+            matchDayTime: match.matchDayTime,
+            startingPrice: priceInfo.price,
+            startingLounge: priceInfo.loungeName,
+            originalCurrency: currency,
+            priceUSD: priceUSD,
+            portal: country.name
+          });
+        }
+      }
+      
+      console.log(`✅ ${matchesWithPricing} matches have available pricing`);
+      
+      await page.close();
+    }
+
+    // Remove duplicates - keep lowest USD price per match
+    const matchMap = new Map();
+    for (const match of allMatches) {
+      const existing = matchMap.get(match.matchNumber);
+      if (!existing || match.priceUSD < existing.priceUSD) {
+        matchMap.set(match.matchNumber, match);
       }
     }
     
-    console.log(`✅ ${matchesWithPricing} matches have available pricing`);
+    const uniqueMatches = Array.from(matchMap.values());
+    uniqueMatches.sort((a, b) => a.matchNumber - b.matchNumber);
 
-    // Sort by match number
-    allMatches.sort((a, b) => a.matchNumber - b.matchNumber);
-
-    console.log(`\n📊 TOTAL: ${allMatches.length} matches with pricing\n`);
+    console.log(`\n📊 TOTAL: ${uniqueMatches.length} unique matches with pricing\n`);
 
     const now = new Date();
     const timestamp = now.toISOString().split('T')[0];
@@ -162,8 +182,8 @@ async function scrapeHospitalityData() {
     const data = {
       scrapedAt: now.toISOString(),
       exchangeRates: rates,
-      totalMatches: allMatches.length,
-      matches: allMatches
+      totalMatches: uniqueMatches.length,
+      matches: uniqueMatches
     };
 
     if (!fs.existsSync('data')) {
@@ -176,10 +196,10 @@ async function scrapeHospitalityData() {
 
     // CSV - ONE ROW PER MATCH
     const csvRows = [
-      'Match Number,Stage,Host Team,Away Team,Venue,City,Country,Date,Time,Starting Price,Starting Lounge,Original Currency,Price (USD)'
+      'Match Number,Stage,Host Team,Away Team,Venue,City,Country,Date,Time,Starting Price,Starting Lounge,Original Currency,Price (USD),Portal'
     ];
     
-    allMatches.forEach(match => {
+    uniqueMatches.forEach(match => {
       csvRows.push([
         match.matchNumber,
         `"${match.stage}"`,
@@ -193,7 +213,8 @@ async function scrapeHospitalityData() {
         match.startingPrice,
         `"${match.startingLounge}"`,
         match.originalCurrency,
-        match.priceUSD
+        match.priceUSD,
+        `"${match.portal}"`
       ].join(','));
     });
     
