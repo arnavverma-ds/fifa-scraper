@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-02-19T12:43:32.531Z",
+  "scrapedAt": "2026-02-19T17:25:33.851Z",
   "exchangeRates": {
     "USD": 1,
     "AED": 3.67,
@@ -184,7 +184,7 @@
       "startingLounge": "FIFA Pavilion",
       "originalCurrency": "MXN",
       "priceUSD": 1991,
-      "portal": "Mexico"
+      "portal": "United States"
     },
     {
       "matchNumber": 3,
@@ -198,9 +198,9 @@
       "matchDayTime": "Friday, 3pm ET",
       "startingPrice": 6375,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 371,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 4653,
+      "portal": "United States"
     },
     {
       "matchNumber": 4,
@@ -214,9 +214,9 @@
       "matchDayTime": "Friday, 6pm PT",
       "startingPrice": 3000,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 175,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 3000,
+      "portal": "United States"
     },
     {
       "matchNumber": 5,
@@ -230,9 +230,9 @@
       "matchDayTime": "Saturday, 9pm ET",
       "startingPrice": 2400,
       "startingLounge": "Trophy Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 140,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2400,
+      "portal": "United States"
     },
     {
       "matchNumber": 6,
@@ -246,9 +246,9 @@
       "matchDayTime": "Saturday, 9pm PT",
       "startingPrice": 2950,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 172,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 2153,
+      "portal": "United States"
     },
     {
       "matchNumber": 7,
@@ -260,11 +260,11 @@
       "country": "United States",
       "matchDate": "June 13",
       "matchDayTime": "Saturday, 6pm ET",
-      "startingPrice": 3400,
-      "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 198,
-      "portal": "Mexico"
+      "startingPrice": 4800,
+      "startingLounge": "VIP",
+      "originalCurrency": "USD",
+      "priceUSD": 4800,
+      "portal": "United States"
     },
     {
       "matchNumber": 8,
@@ -276,11 +276,11 @@
       "country": "United States",
       "matchDate": "June 13",
       "matchDayTime": "Saturday, 12pm PT",
-      "startingPrice": 2300,
-      "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 134,
-      "portal": "Mexico"
+      "startingPrice": 1475,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "USD",
+      "priceUSD": 1475,
+      "portal": "United States"
     },
     {
       "matchNumber": 9,
@@ -294,9 +294,9 @@
       "matchDayTime": "Sunday, 7pm ET",
       "startingPrice": 2375,
       "startingLounge": "Trophy Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 138,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2375,
+      "portal": "United States"
     },
     {
       "matchNumber": 10,
@@ -308,11 +308,11 @@
       "country": "United States",
       "matchDate": "June 14",
       "matchDayTime": "Sunday, 12pm CT",
-      "startingPrice": 3600,
-      "startingLounge": "Pitch Side Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 210,
-      "portal": "Mexico"
+      "startingPrice": 1575,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "USD",
+      "priceUSD": 1575,
+      "portal": "United States"
     },
     {
       "matchNumber": 11,
@@ -324,11 +324,11 @@
       "country": "United States",
       "matchDate": "June 14",
       "matchDayTime": "Sunday, 3pm CT",
-      "startingPrice": 2300,
-      "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 134,
-      "portal": "Mexico"
+      "startingPrice": 1550,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "USD",
+      "priceUSD": 1550,
+      "portal": "United States"
     },
     {
       "matchNumber": 12,
@@ -344,7 +344,7 @@
       "startingLounge": "Champions Lounge",
       "originalCurrency": "MXN",
       "priceUSD": 3571,
-      "portal": "Mexico"
+      "portal": "United States"
     },
     {
       "matchNumber": 13,
@@ -358,9 +358,9 @@
       "matchDayTime": "Monday, 6pm ET",
       "startingPrice": 1750,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 102,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1750,
+      "portal": "United States"
     },
     {
       "matchNumber": 14,
@@ -374,9 +374,9 @@
       "matchDayTime": "Monday, 12pm ET",
       "startingPrice": 2050,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 119,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2050,
+      "portal": "United States"
     },
     {
       "matchNumber": 15,
@@ -390,9 +390,9 @@
       "matchDayTime": "Monday, 6pm PT",
       "startingPrice": 1400,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 81,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1400,
+      "portal": "United States"
     },
     {
       "matchNumber": 16,
@@ -406,9 +406,9 @@
       "matchDayTime": "Monday, 12pm PT",
       "startingPrice": 1575,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 92,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1575,
+      "portal": "United States"
     },
     {
       "matchNumber": 17,
@@ -422,9 +422,9 @@
       "matchDayTime": "Tuesday, 3pm ET",
       "startingPrice": 2300,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 134,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2300,
+      "portal": "United States"
     },
     {
       "matchNumber": 18,
@@ -438,9 +438,9 @@
       "matchDayTime": "Tuesday, 6pm ET",
       "startingPrice": 2000,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 116,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2000,
+      "portal": "United States"
     },
     {
       "matchNumber": 19,
@@ -454,9 +454,9 @@
       "matchDayTime": "Tuesday, 8pm CT",
       "startingPrice": 2000,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 116,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2000,
+      "portal": "United States"
     },
     {
       "matchNumber": 20,
@@ -470,9 +470,9 @@
       "matchDayTime": "Tuesday, 9pm PT",
       "startingPrice": 2000,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 116,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2000,
+      "portal": "United States"
     },
     {
       "matchNumber": 21,
@@ -486,9 +486,9 @@
       "matchDayTime": "Wednesday, 7pm ET",
       "startingPrice": 3940,
       "startingLounge": "Trophy Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 229,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 2876,
+      "portal": "United States"
     },
     {
       "matchNumber": 22,
@@ -502,9 +502,9 @@
       "matchDayTime": "Wednesday, 3pm CT",
       "startingPrice": 2430,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 141,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2430,
+      "portal": "United States"
     },
     {
       "matchNumber": 23,
@@ -516,11 +516,11 @@
       "country": "United States",
       "matchDate": "June 17",
       "matchDayTime": "Wednesday, 12pm CT",
-      "startingPrice": 2450,
-      "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 143,
-      "portal": "Mexico"
+      "startingPrice": 1560,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "USD",
+      "priceUSD": 1560,
+      "portal": "United States"
     },
     {
       "matchNumber": 24,
@@ -536,7 +536,7 @@
       "startingLounge": "Champions Lounge",
       "originalCurrency": "MXN",
       "priceUSD": 3929,
-      "portal": "Mexico"
+      "portal": "United States"
     },
     {
       "matchNumber": 25,
@@ -548,11 +548,11 @@
       "country": "United States",
       "matchDate": "June 18",
       "matchDayTime": "Thursday, 12pm ET",
-      "startingPrice": 2000,
-      "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 116,
-      "portal": "Mexico"
+      "startingPrice": 1450,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "USD",
+      "priceUSD": 1450,
+      "portal": "United States"
     },
     {
       "matchNumber": 26,
@@ -566,9 +566,9 @@
       "matchDayTime": "Thursday, 12pm PT",
       "startingPrice": 1510,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 88,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1510,
+      "portal": "United States"
     },
     {
       "matchNumber": 27,
@@ -582,9 +582,9 @@
       "matchDayTime": "Thursday, 3pm PT",
       "startingPrice": 3575,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 208,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 2609,
+      "portal": "United States"
     },
     {
       "matchNumber": 29,
@@ -598,9 +598,9 @@
       "matchDayTime": "Friday, 9pm ET",
       "startingPrice": 2490,
       "startingLounge": "Trophy Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 145,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2490,
+      "portal": "United States"
     },
     {
       "matchNumber": 30,
@@ -614,9 +614,9 @@
       "matchDayTime": "Friday, 6pm ET",
       "startingPrice": 2200,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 128,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2200,
+      "portal": "United States"
     },
     {
       "matchNumber": 31,
@@ -630,9 +630,9 @@
       "matchDayTime": "Friday, 9pm PT",
       "startingPrice": 2100,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 122,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2100,
+      "portal": "United States"
     },
     {
       "matchNumber": 32,
@@ -646,9 +646,9 @@
       "matchDayTime": "Friday, 12pm PT",
       "startingPrice": 2650,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 154,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2650,
+      "portal": "United States"
     },
     {
       "matchNumber": 33,
@@ -662,9 +662,9 @@
       "matchDayTime": "Saturday, 4pm ET",
       "startingPrice": 5100,
       "startingLounge": "Lounge 1930",
-      "originalCurrency": "MXN",
-      "priceUSD": 297,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 3723,
+      "portal": "United States"
     },
     {
       "matchNumber": 34,
@@ -678,9 +678,9 @@
       "matchDayTime": "Saturday, 7pm CT",
       "startingPrice": 1475,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 86,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1475,
+      "portal": "United States"
     },
     {
       "matchNumber": 35,
@@ -694,9 +694,9 @@
       "matchDayTime": "Saturday, 12pm CT",
       "startingPrice": 2420,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 141,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2420,
+      "portal": "United States"
     },
     {
       "matchNumber": 37,
@@ -710,9 +710,9 @@
       "matchDayTime": "Sunday, 6pm ET",
       "startingPrice": 1825,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 106,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1825,
+      "portal": "United States"
     },
     {
       "matchNumber": 38,
@@ -726,9 +726,9 @@
       "matchDayTime": "Sunday, 12pm ET",
       "startingPrice": 2150,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 125,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2150,
+      "portal": "United States"
     },
     {
       "matchNumber": 39,
@@ -742,9 +742,9 @@
       "matchDayTime": "Sunday, 12pm PT",
       "startingPrice": 1475,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 86,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1475,
+      "portal": "United States"
     },
     {
       "matchNumber": 40,
@@ -758,9 +758,9 @@
       "matchDayTime": "Sunday, 6pm PT",
       "startingPrice": 2575,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 150,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 1880,
+      "portal": "United States"
     },
     {
       "matchNumber": 41,
@@ -774,9 +774,9 @@
       "matchDayTime": "Monday, 8pm ET",
       "startingPrice": 1800,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 105,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1800,
+      "portal": "United States"
     },
     {
       "matchNumber": 42,
@@ -790,9 +790,9 @@
       "matchDayTime": "Monday, 5pm ET",
       "startingPrice": 2260,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 132,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2260,
+      "portal": "United States"
     },
     {
       "matchNumber": 43,
@@ -804,11 +804,11 @@
       "country": "United States",
       "matchDate": "June 22",
       "matchDayTime": "Monday, 12pm CT",
-      "startingPrice": 2430,
+      "startingPrice": 2310,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 141,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2310,
+      "portal": "United States"
     },
     {
       "matchNumber": 44,
@@ -822,9 +822,9 @@
       "matchDayTime": "Monday, 8pm PT",
       "startingPrice": 2000,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 116,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2000,
+      "portal": "United States"
     },
     {
       "matchNumber": 45,
@@ -838,9 +838,9 @@
       "matchDayTime": "Tuesday, 4pm ET",
       "startingPrice": 2430,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 141,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2430,
+      "portal": "United States"
     },
     {
       "matchNumber": 46,
@@ -854,9 +854,9 @@
       "matchDayTime": "Tuesday, 7pm ET",
       "startingPrice": 3450,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 201,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 2518,
+      "portal": "United States"
     },
     {
       "matchNumber": 47,
@@ -870,9 +870,9 @@
       "matchDayTime": "Tuesday, 12pm CT",
       "startingPrice": 2450,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 143,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2450,
+      "portal": "United States"
     },
     {
       "matchNumber": 48,
@@ -888,7 +888,7 @@
       "startingLounge": "FIFA Pavilion",
       "originalCurrency": "MXN",
       "priceUSD": 2140,
-      "portal": "Mexico"
+      "portal": "United States"
     },
     {
       "matchNumber": 49,
@@ -902,9 +902,9 @@
       "matchDayTime": "Wednesday, 6pm ET",
       "startingPrice": 3000,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 175,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 3000,
+      "portal": "United States"
     },
     {
       "matchNumber": 50,
@@ -918,9 +918,9 @@
       "matchDayTime": "Wednesday, 6pm ET",
       "startingPrice": 2050,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 119,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2050,
+      "portal": "United States"
     },
     {
       "matchNumber": 51,
@@ -934,9 +934,9 @@
       "matchDayTime": "Wednesday, 12pm PT",
       "startingPrice": 3425,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 199,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 2500,
+      "portal": "United States"
     },
     {
       "matchNumber": 52,
@@ -950,9 +950,9 @@
       "matchDayTime": "Wednesday, 12pm PT",
       "startingPrice": 1575,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 92,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1575,
+      "portal": "United States"
     },
     {
       "matchNumber": 54,
@@ -968,7 +968,7 @@
       "startingLounge": "Champions Lounge",
       "originalCurrency": "MXN",
       "priceUSD": 3222,
-      "portal": "Mexico"
+      "portal": "United States"
     },
     {
       "matchNumber": 55,
@@ -980,11 +980,11 @@
       "country": "United States",
       "matchDate": "June 25",
       "matchDayTime": "Thursday, 4pm ET",
-      "startingPrice": 2150,
-      "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 125,
-      "portal": "Mexico"
+      "startingPrice": 1450,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "USD",
+      "priceUSD": 1450,
+      "portal": "United States"
     },
     {
       "matchNumber": 56,
@@ -998,9 +998,9 @@
       "matchDayTime": "Thursday, 4pm ET",
       "startingPrice": 2450,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 143,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2450,
+      "portal": "United States"
     },
     {
       "matchNumber": 57,
@@ -1014,9 +1014,9 @@
       "matchDayTime": "Thursday, 6pm CT",
       "startingPrice": 2200,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 128,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2200,
+      "portal": "United States"
     },
     {
       "matchNumber": 58,
@@ -1030,9 +1030,9 @@
       "matchDayTime": "Thursday, 6pm CT",
       "startingPrice": 1400,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 81,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1400,
+      "portal": "United States"
     },
     {
       "matchNumber": 59,
@@ -1046,9 +1046,9 @@
       "matchDayTime": "Thursday, 7pm PT",
       "startingPrice": 2700,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 157,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2700,
+      "portal": "United States"
     },
     {
       "matchNumber": 60,
@@ -1062,9 +1062,9 @@
       "matchDayTime": "Thursday, 7pm PT",
       "startingPrice": 2000,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 116,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2000,
+      "portal": "United States"
     },
     {
       "matchNumber": 61,
@@ -1078,9 +1078,9 @@
       "matchDayTime": "Friday, 3pm ET",
       "startingPrice": 2700,
       "startingLounge": "Trophy Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 157,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2700,
+      "portal": "United States"
     },
     {
       "matchNumber": 62,
@@ -1094,9 +1094,9 @@
       "matchDayTime": "Friday, 3pm ET",
       "startingPrice": 3450,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 201,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 2518,
+      "portal": "United States"
     },
     {
       "matchNumber": 63,
@@ -1110,9 +1110,9 @@
       "matchDayTime": "Friday, 8pm PT",
       "startingPrice": 1525,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 89,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1525,
+      "portal": "United States"
     },
     {
       "matchNumber": 64,
@@ -1126,9 +1126,9 @@
       "matchDayTime": "Friday, 8pm PT",
       "startingPrice": 2575,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 150,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 1880,
+      "portal": "United States"
     },
     {
       "matchNumber": 65,
@@ -1142,9 +1142,9 @@
       "matchDayTime": "Friday, 7pm CT",
       "startingPrice": 2375,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 138,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2375,
+      "portal": "United States"
     },
     {
       "matchNumber": 66,
@@ -1160,7 +1160,7 @@
       "startingLounge": "FIFA Pavilion",
       "originalCurrency": "MXN",
       "priceUSD": 3147,
-      "portal": "Mexico"
+      "portal": "United States"
     },
     {
       "matchNumber": 67,
@@ -1174,9 +1174,9 @@
       "matchDayTime": "Saturday, 5pm ET",
       "startingPrice": 2400,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 140,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2400,
+      "portal": "United States"
     },
     {
       "matchNumber": 68,
@@ -1188,11 +1188,11 @@
       "country": "United States",
       "matchDate": "June 27",
       "matchDayTime": "Saturday, 5pm ET",
-      "startingPrice": 2200,
-      "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 128,
-      "portal": "Mexico"
+      "startingPrice": 1525,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "USD",
+      "priceUSD": 1525,
+      "portal": "United States"
     },
     {
       "matchNumber": 69,
@@ -1206,9 +1206,9 @@
       "matchDayTime": "Saturday, 9pm CT",
       "startingPrice": 1475,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 86,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1475,
+      "portal": "United States"
     },
     {
       "matchNumber": 70,
@@ -1220,11 +1220,11 @@
       "country": "United States",
       "matchDate": "June 27",
       "matchDayTime": "Saturday, 9pm CT",
-      "startingPrice": 2430,
+      "startingPrice": 2310,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 141,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2310,
+      "portal": "United States"
     },
     {
       "matchNumber": 71,
@@ -1238,9 +1238,9 @@
       "matchDayTime": "Saturday, 7pm ET",
       "startingPrice": 4600,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 268,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 4600,
+      "portal": "United States"
     },
     {
       "matchNumber": 72,
@@ -1254,9 +1254,9 @@
       "matchDayTime": "Saturday, 7pm ET",
       "startingPrice": 2150,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 125,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2150,
+      "portal": "United States"
     },
     {
       "matchNumber": 73,
@@ -1270,9 +1270,9 @@
       "matchDayTime": "Sunday, 12pm PT",
       "startingPrice": 2050,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 119,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2050,
+      "portal": "United States"
     },
     {
       "matchNumber": 74,
@@ -1286,9 +1286,9 @@
       "matchDayTime": "Monday, 4pm ET",
       "startingPrice": 2500,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 146,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2500,
+      "portal": "United States"
     },
     {
       "matchNumber": 75,
@@ -1304,7 +1304,7 @@
       "startingLounge": "VIP",
       "originalCurrency": "MXN",
       "priceUSD": 5797,
-      "portal": "Mexico"
+      "portal": "United States"
     },
     {
       "matchNumber": 76,
@@ -1318,9 +1318,9 @@
       "matchDayTime": "Monday, 12pm CT",
       "startingPrice": 2900,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 169,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2900,
+      "portal": "United States"
     },
     {
       "matchNumber": 77,
@@ -1334,9 +1334,9 @@
       "matchDayTime": "Tuesday, 5pm ET",
       "startingPrice": 2200,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 128,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2200,
+      "portal": "United States"
     },
     {
       "matchNumber": 78,
@@ -1350,9 +1350,9 @@
       "matchDayTime": "Tuesday, 12pm CT",
       "startingPrice": 3000,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 175,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 3000,
+      "portal": "United States"
     },
     {
       "matchNumber": 79,
@@ -1368,7 +1368,7 @@
       "startingLounge": "Champions Lounge",
       "originalCurrency": "MXN",
       "priceUSD": 4569,
-      "portal": "Mexico"
+      "portal": "United States"
     },
     {
       "matchNumber": 80,
@@ -1380,11 +1380,11 @@
       "country": "United States",
       "matchDate": "July 1",
       "matchDayTime": "Wednesday, 12pm ET",
-      "startingPrice": 2500,
-      "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 146,
-      "portal": "Mexico"
+      "startingPrice": 2100,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "USD",
+      "priceUSD": 2100,
+      "portal": "United States"
     },
     {
       "matchNumber": 81,
@@ -1398,9 +1398,9 @@
       "matchDayTime": "Wednesday, 5pm PT",
       "startingPrice": 3850,
       "startingLounge": "VIP",
-      "originalCurrency": "MXN",
-      "priceUSD": 224,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 3850,
+      "portal": "United States"
     },
     {
       "matchNumber": 82,
@@ -1414,9 +1414,9 @@
       "matchDayTime": "Wednesday, 1pm PT",
       "startingPrice": 2125,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 124,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2125,
+      "portal": "United States"
     },
     {
       "matchNumber": 84,
@@ -1430,9 +1430,9 @@
       "matchDayTime": "Thursday, 12pm PT",
       "startingPrice": 2500,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 146,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2500,
+      "portal": "United States"
     },
     {
       "matchNumber": 85,
@@ -1446,9 +1446,9 @@
       "matchDayTime": "Thursday, 8pm PT",
       "startingPrice": 3480,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 203,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 2540,
+      "portal": "United States"
     },
     {
       "matchNumber": 86,
@@ -1462,9 +1462,9 @@
       "matchDayTime": "Friday, 6pm ET",
       "startingPrice": 3170,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 185,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 3170,
+      "portal": "United States"
     },
     {
       "matchNumber": 87,
@@ -1478,9 +1478,9 @@
       "matchDayTime": "Friday, 8pm CT",
       "startingPrice": 2050,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 119,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2050,
+      "portal": "United States"
     },
     {
       "matchNumber": 88,
@@ -1494,9 +1494,9 @@
       "matchDayTime": "Friday, 1pm CT",
       "startingPrice": 3000,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 175,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 3000,
+      "portal": "United States"
     },
     {
       "matchNumber": 89,
@@ -1510,9 +1510,9 @@
       "matchDayTime": "Saturday, 5pm ET",
       "startingPrice": 3725,
       "startingLounge": "Trophy Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 217,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 3725,
+      "portal": "United States"
     },
     {
       "matchNumber": 90,
@@ -1526,9 +1526,9 @@
       "matchDayTime": "Saturday, 12pm CT",
       "startingPrice": 3650,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 212,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 3650,
+      "portal": "United States"
     },
     {
       "matchNumber": 91,
@@ -1542,9 +1542,9 @@
       "matchDayTime": "Sunday, 4pm ET",
       "startingPrice": 2800,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 163,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2800,
+      "portal": "United States"
     },
     {
       "matchNumber": 92,
@@ -1560,7 +1560,7 @@
       "startingLounge": "Champions Lounge",
       "originalCurrency": "MXN",
       "priceUSD": 5739,
-      "portal": "Mexico"
+      "portal": "United States"
     },
     {
       "matchNumber": 93,
@@ -1574,9 +1574,9 @@
       "matchDayTime": "Monday, 2pm CT",
       "startingPrice": 3250,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 189,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 3250,
+      "portal": "United States"
     },
     {
       "matchNumber": 94,
@@ -1590,9 +1590,9 @@
       "matchDayTime": "Monday, 5pm PT",
       "startingPrice": 2350,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 137,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2350,
+      "portal": "United States"
     },
     {
       "matchNumber": 95,
@@ -1606,9 +1606,9 @@
       "matchDayTime": "Tuesday, 12pm ET",
       "startingPrice": 2750,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 160,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2750,
+      "portal": "United States"
     },
     {
       "matchNumber": 96,
@@ -1622,9 +1622,9 @@
       "matchDayTime": "Tuesday, 1pm PT",
       "startingPrice": 3825,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 223,
-      "portal": "Mexico"
+      "originalCurrency": "CAD",
+      "priceUSD": 2792,
+      "portal": "United States"
     },
     {
       "matchNumber": 97,
@@ -1638,9 +1638,9 @@
       "matchDayTime": "Thursday, 4pm ET",
       "startingPrice": 4300,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 250,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 4300,
+      "portal": "United States"
     },
     {
       "matchNumber": 98,
@@ -1654,9 +1654,9 @@
       "matchDayTime": "Friday, 12pm PT",
       "startingPrice": 4200,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 244,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 4200,
+      "portal": "United States"
     },
     {
       "matchNumber": 99,
@@ -1670,9 +1670,9 @@
       "matchDayTime": "Saturday, 5pm ET",
       "startingPrice": 3000,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 175,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 3000,
+      "portal": "United States"
     },
     {
       "matchNumber": 100,
@@ -1686,9 +1686,9 @@
       "matchDayTime": "Saturday, 8pm CT",
       "startingPrice": 2900,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 169,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 2900,
+      "portal": "United States"
     },
     {
       "matchNumber": 101,
@@ -1702,9 +1702,9 @@
       "matchDayTime": "Tuesday, 2pm CT",
       "startingPrice": 8150,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 474,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 8150,
+      "portal": "United States"
     },
     {
       "matchNumber": 102,
@@ -1718,9 +1718,9 @@
       "matchDayTime": "Wednesday, 3pm ET",
       "startingPrice": 7850,
       "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 457,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 7850,
+      "portal": "United States"
     },
     {
       "matchNumber": 103,
@@ -1734,9 +1734,9 @@
       "matchDayTime": "Saturday, 5pm ET",
       "startingPrice": 1950,
       "startingLounge": "FIFA Pavilion",
-      "originalCurrency": "MXN",
-      "priceUSD": 114,
-      "portal": "Mexico"
+      "originalCurrency": "USD",
+      "priceUSD": 1950,
+      "portal": "United States"
     }
   ]
 }
