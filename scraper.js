@@ -22,7 +22,7 @@ async function getExchangeRates() {
   }
 }
 
-// Helper: Get currency based on venue country (NOT portal)
+// Helper: Get currency based on venue country
 function getCurrencyByCountry(venueCountry) {
   if (venueCountry === 'Mexico') return 'MXN';
   if (venueCountry === 'Canada') return 'CAD';
@@ -72,7 +72,6 @@ async function scrapeHospitalityData() {
   try {
     let allMatches = [];
 
-    // Scrape ALL 3 portals to get all matches
     for (const country of COUNTRIES) {
       console.log(`\n🌍 Scraping ${country.name} (${country.code.toUpperCase()})...`);
       
@@ -87,35 +86,74 @@ async function scrapeHospitalityData() {
       console.log(`📡 Navigating to FIFA ${country.name} website...`);
       await page.goto(`https://fifaworldcup26.hospitality.fifa.com/${country.code}/en/choose-matches`, {
         waitUntil: 'networkidle2',
-        timeout: 60000
+        timeout: 90000
       });
 
-      await page.waitForTimeout(5000);
+      // Wait longer for page to fully load
+      await page.waitForTimeout(8000);
       console.log('✅ Page loaded');
+
+      // Wait for any queue/captcha to clear
+      try {
+        await page.waitForSelector('body', { timeout: 10000 });
+      } catch (e) {
+        console.log('⚠️ Selector wait timeout, continuing...');
+      }
 
       console.log('🔍 Fetching match data from API...');
       const countryCode = country.code;
       
       const matches = await page.evaluate(async (countryCode) => {
-        const matchRes = await fetch('/next-api/matches-all?productCode=26FWC&productType=5', {
-          headers: { 'country-tag': countryCode, 'language-tag': 'en' }
-        });
-        const rawMatches = await matchRes.json();
-        
-        return rawMatches.filter(m => m.MatchNumber).map(m => ({
-          matchNumber: m.MatchNumber,
-          stage: m.Stage || '',
-          hostTeam: m.HostTeam?.ExternalName || 'TBD',
-          opposingTeam: m.OpposingTeam?.ExternalName || 'TBD',
-          venue: m.Venue?.Name || '',
-          city: m.Venue?.Town || '',
-          venueCountry: m.Venue?.Country || '',
-          matchDate: m.MatchDate || '',
-          matchDayTime: m.MatchDayTime || '',
-          isAvailable: m.IsAvailable || false,
-          prices: m.Prices || []
-        }));
+        try {
+          const matchRes = await fetch('/next-api/matches-all?productCode=26FWC&productType=5', {
+            headers: { 'country-tag': countryCode, 'language-tag': 'en' }
+          });
+          
+          // Check if response is OK
+          if (!matchRes.ok) {
+            console.log('API returned status:', matchRes.status);
+            return [];
+          }
+          
+          const text = await matchRes.text();
+          
+          // Check if it's HTML (error page) instead of JSON
+          if (text.trim().startsWith('<')) {
+            console.log('API returned HTML instead of JSON');
+            return [];
+          }
+          
+          const rawMatches = JSON.parse(text);
+          
+          if (!Array.isArray(rawMatches)) {
+            console.log('API response is not an array');
+            return [];
+          }
+          
+          return rawMatches.filter(m => m.MatchNumber).map(m => ({
+            matchNumber: m.MatchNumber,
+            stage: m.Stage || '',
+            hostTeam: m.HostTeam?.ExternalName || 'TBD',
+            opposingTeam: m.OpposingTeam?.ExternalName || 'TBD',
+            venue: m.Venue?.Name || '',
+            city: m.Venue?.Town || '',
+            venueCountry: m.Venue?.Country || '',
+            matchDate: m.MatchDate || '',
+            matchDayTime: m.MatchDayTime || '',
+            isAvailable: m.IsAvailable || false,
+            prices: m.Prices || []
+          }));
+        } catch (e) {
+          console.log('Error in page.evaluate:', e.message);
+          return [];
+        }
       }, countryCode);
+
+      if (matches.length === 0) {
+        console.log(`⚠️ No matches found on ${country.code.toUpperCase()} portal, skipping...`);
+        await page.close();
+        continue;
+      }
 
       console.log(`✅ Found ${matches.length} matches on ${country.code.toUpperCase()} site`);
 
@@ -127,7 +165,7 @@ async function scrapeHospitalityData() {
         if (priceInfo.price !== null) {
           matchesWithPricing++;
           
-          // Currency based on VENUE COUNTRY, not portal!
+          // Currency based on VENUE COUNTRY
           const currency = getCurrencyByCountry(match.venueCountry);
           
           // Convert to USD
@@ -156,9 +194,16 @@ async function scrapeHospitalityData() {
         }
       }
       
-      console.log(`✅ ${matchesWithPricing} matches have available pricing on this portal`);
+      console.log(`✅ ${matchesWithPricing} matches have available pricing`);
       
       await page.close();
+      
+      // Wait between portals to avoid rate limiting
+      await new Promise(r => setTimeout(r, 3000));
+    }
+
+    if (allMatches.length === 0) {
+      throw new Error('No matches found from any portal!');
     }
 
     // Remove duplicates - keep lowest USD price per match
