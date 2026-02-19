@@ -22,6 +22,13 @@ async function getExchangeRates() {
   }
 }
 
+// Helper: Get currency based on venue country (NOT portal)
+function getCurrencyByCountry(venueCountry) {
+  if (venueCountry === 'Mexico') return 'MXN';
+  if (venueCountry === 'Canada') return 'CAD';
+  return 'USD';
+}
+
 // Helper: Find lowest available price from Prices array
 function getLowestAvailablePrice(prices) {
   if (!prices || !Array.isArray(prices)) return { price: null, loungeName: null };
@@ -65,6 +72,7 @@ async function scrapeHospitalityData() {
   try {
     let allMatches = [];
 
+    // Scrape ALL 3 portals to get all matches
     for (const country of COUNTRIES) {
       console.log(`\n🌍 Scraping ${country.name} (${country.code.toUpperCase()})...`);
       
@@ -101,7 +109,7 @@ async function scrapeHospitalityData() {
           opposingTeam: m.OpposingTeam?.ExternalName || 'TBD',
           venue: m.Venue?.Name || '',
           city: m.Venue?.Town || '',
-          country: m.Venue?.Country || '',
+          venueCountry: m.Venue?.Country || '',
           matchDate: m.MatchDate || '',
           matchDayTime: m.MatchDayTime || '',
           isAvailable: m.IsAvailable || false,
@@ -119,9 +127,13 @@ async function scrapeHospitalityData() {
         if (priceInfo.price !== null) {
           matchesWithPricing++;
           
+          // Currency based on VENUE COUNTRY, not portal!
+          const currency = getCurrencyByCountry(match.venueCountry);
+          
+          // Convert to USD
           let priceUSD = priceInfo.price;
-          if (country.currency !== 'USD') {
-            const rate = rates[country.currency] || 1;
+          if (currency !== 'USD') {
+            const rate = rates[currency] || 1;
             priceUSD = Math.round(priceInfo.price / rate);
           }
           
@@ -132,19 +144,19 @@ async function scrapeHospitalityData() {
             opposingTeam: match.opposingTeam,
             venue: match.venue,
             city: match.city,
-            country: match.country,
+            country: match.venueCountry,
             matchDate: match.matchDate,
             matchDayTime: match.matchDayTime,
             startingPrice: priceInfo.price,
             startingLounge: priceInfo.loungeName,
-            originalCurrency: country.currency,
+            originalCurrency: currency,
             priceUSD: priceUSD,
             portal: country.name
           });
         }
       }
       
-      console.log(`✅ ${matchesWithPricing} matches have available pricing`);
+      console.log(`✅ ${matchesWithPricing} matches have available pricing on this portal`);
       
       await page.close();
     }
