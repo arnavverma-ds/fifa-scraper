@@ -12,24 +12,45 @@ const COUNTRIES = [
 async function getExchangeRates() {
   try {
     console.log('💱 Fetching daily exchange rates...');
-    // Using a free public API for rates
     const res = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
     const data = await res.json();
     console.log(`✅ Rates fetched: 1 USD = ${data.rates.CAD} CAD, ${data.rates.MXN} MXN`);
     return data.rates;
   } catch (error) {
-    console.error('⚠️ Failed to fetch exchange rates, defaulting to 1.0 (no conversion)');
-    return { CAD: 1, MXN: 1, USD: 1 };
+    console.error('⚠️ Failed to fetch exchange rates, using defaults');
+    return { CAD: 1.44, MXN: 20.5, USD: 1 };
   }
 }
 
-async function scrapeHospitalityData() {
-  console.log('🚀 Starting FIFA Hospitality Scraper (Matches 1-104)...\n');
+// Helper: Find lowest available price from Prices array
+function getLowestAvailablePrice(prices) {
+  if (!prices || !Array.isArray(prices)) return { price: null, loungeName: null };
   
-  // 1. Get Real-Time Exchange Rates
+  let lowestPrice = null;
+  let lowestLoungeName = null;
+  
+  for (const lounge of prices) {
+    if (!lounge.HasAvailableSeats) continue;
+    if (!lounge.PriceCategories || !Array.isArray(lounge.PriceCategories)) continue;
+    
+    for (const category of lounge.PriceCategories) {
+      if (category.IsAvailable && category.Amount > 0) {
+        if (lowestPrice === null || category.Amount < lowestPrice) {
+          lowestPrice = category.Amount;
+          lowestLoungeName = lounge.Name;
+        }
+      }
+    }
+  }
+  
+  return { price: lowestPrice, loungeName: lowestLoungeName };
+}
+
+async function scrapeHospitalityData() {
+  console.log('🚀 Starting FIFA Hospitality Scraper (Starting At Prices)...\n');
+  
   const rates = await getExchangeRates();
 
-  // Launch browser
   const browser = await puppeteer.launch({
     headless: 'new',
     args: [
@@ -42,15 +63,13 @@ async function scrapeHospitalityData() {
   });
 
   try {
-    let allMatchesWithPricing = [];
+    let allMatches = [];
 
-    // Loop through each country
     for (const country of COUNTRIES) {
       console.log(`\n🌍 Scraping ${country.name} (${country.code.toUpperCase()})...`);
       
       const page = await browser.newPage();
       
-      // Set headers to look like a real browser
       await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
       await page.setExtraHTTPHeaders({
         'Accept-Language': 'en-US,en;q=0.9',
@@ -63,176 +82,133 @@ async function scrapeHospitalityData() {
         timeout: 60000
       });
 
-      // Wait for page to fully load
       await page.waitForTimeout(5000);
       console.log('✅ Page loaded');
 
-      // Execute scraping script in browser context
-      console.log('🔍 Scraping match data...');
+      console.log('🔍 Fetching match data from API...');
       const countryCode = country.code;
       
       const matches = await page.evaluate(async (countryCode) => {
-        // Fetch all matches
         const matchRes = await fetch('/next-api/matches-all?productCode=26FWC&productType=5', {
           headers: { 'country-tag': countryCode, 'language-tag': 'en' }
         });
         const rawMatches = await matchRes.json();
         
-        // --- CHANGE: Removed "Stage" filter to get ALL matches (1-104) ---
-        // We only require that the match has a MatchNumber
-        const allFixtureMatches = rawMatches.filter(m => m.MatchNumber);
-        
-        const results = [];
-        
-        for (let i = 0; i < allFixtureMatches.length; i++) {
-          const m = allFixtureMatches[i];
-          
-          const match = {
-            performanceId: m.PerformanceId,
-            matchNumber: m.MatchNumber, // MATCH NUMBER IS KEY
-            stage: m.Stage,
-            hostTeam: {
-              name: m.HostTeam?.ExternalName || 'TBD',
-              code: m.HostTeam?.Code || ''
-            },
-            opposingTeam: {
-              name: m.OpposingTeam?.ExternalName || 'TBD',
-              code: m.OpposingTeam?.Code || ''
-            },
-            venue: {
-              name: m.Venue?.Name || '',
-              code: m.Venue?.Code || '',
-              town: m.Venue?.Town || '',
-              country: m.Venue?.Country || ''
-            },
-            matchDate: m.MatchDate || '',
-            matchDayTime: m.MatchDayTime || '',
-            countryCode: m.CountryCode || '',
-            lounges: []
-          };
-          
-          // Fetch pricing for each match
-          try {
-            await new Promise(r => setTimeout(r, 200)); // Small delay to avoid rate limits
-            const loungeRes = await fetch(
-              `/next-api/lounges?productCode=26FWC&productTypeCode=SM&quantity=1&performanceId=${m.PerformanceId}`,
-              { headers: { 'country-tag': countryCode, 'language-tag': 'en' } }
-            );
-            
-            if (loungeRes.ok) {
-              const lounges = await loungeRes.json();
-              match.lounges = lounges.map(l => ({
-                title: l.title,
-                priceString: l.comparePrice || '',
-                // Extract numeric price
-                priceNumber: (() => {
-                  const priceMatch = (l.comparePrice || '').match(/[\$€]?([0-9,]+)/);
-                  return priceMatch ? parseInt(priceMatch[1].replace(/,/g, '')) : 0;
-                })()
-              }));
-            }
-          } catch (e) {
-            // No pricing available for this match on this country site
-          }
-          
-          results.push(match);
-        }
-        
-        return results;
+        return rawMatches.filter(m => m.MatchNumber).map(m => ({
+          matchNumber: m.MatchNumber,
+          stage: m.Stage || '',
+          hostTeam: m.HostTeam?.ExternalName || 'TBD',
+          opposingTeam: m.OpposingTeam?.ExternalName || 'TBD',
+          venue: m.Venue?.Name || '',
+          city: m.Venue?.Town || '',
+          country: m.Venue?.Country || '',
+          matchDate: m.MatchDate || '',
+          matchDayTime: m.MatchDayTime || '',
+          isAvailable: m.IsAvailable || false,
+          prices: m.Prices || []
+        }));
       }, countryCode);
 
-      // Filter: Keep only matches where we found pricing
-      const matchesWithPricing = matches.filter(m => m.lounges && m.lounges.length > 0);
+      console.log(`✅ Found ${matches.length} matches on ${country.code.toUpperCase()} site`);
+
+      let matchesWithPricing = 0;
       
-      console.log(`✅ Found ${matches.length} total matches on ${country.code.toUpperCase()} site`);
-      console.log(`✅ ${matchesWithPricing.length} matches have active pricing here`);
-
-      // Add Metadata + Convert Currency to USD
-      matchesWithPricing.forEach(match => {
-        match.portal = country.name;
-        match.originalCurrency = country.currency;
+      for (const match of matches) {
+        const priceInfo = getLowestAvailablePrice(match.prices);
         
-        match.lounges.forEach(lounge => {
-          // --- CHANGE: Calculate USD Price ---
-          let usdPrice = 0;
-          if (country.currency === 'USD') {
-            usdPrice = lounge.priceNumber;
-          } else {
-            // Convert: Price / Rate
-            // e.g., 100 CAD / 1.35 = 74 USD
-            const rate = rates[country.currency] || 1; 
-            usdPrice = lounge.priceNumber / rate;
+        if (priceInfo.price !== null) {
+          matchesWithPricing++;
+          
+          let priceUSD = priceInfo.price;
+          if (country.currency !== 'USD') {
+            const rate = rates[country.currency] || 1;
+            priceUSD = Math.round(priceInfo.price / rate);
           }
-          lounge.priceUSD = Math.round(usdPrice); // Round to nearest dollar
-        });
-      });
-
-      allMatchesWithPricing = allMatchesWithPricing.concat(matchesWithPricing);
+          
+          allMatches.push({
+            matchNumber: match.matchNumber,
+            stage: match.stage,
+            hostTeam: match.hostTeam,
+            opposingTeam: match.opposingTeam,
+            venue: match.venue,
+            city: match.city,
+            country: match.country,
+            matchDate: match.matchDate,
+            matchDayTime: match.matchDayTime,
+            startingPrice: priceInfo.price,
+            startingLounge: priceInfo.loungeName,
+            originalCurrency: country.currency,
+            priceUSD: priceUSD,
+            portal: country.name
+          });
+        }
+      }
+      
+      console.log(`✅ ${matchesWithPricing} matches have available pricing`);
       
       await page.close();
     }
 
-    console.log(`\n📊 TOTAL: ${allMatchesWithPricing.length} pricing rows collected across all portals\n`);
+    // Remove duplicates - keep lowest USD price per match
+    const matchMap = new Map();
+    for (const match of allMatches) {
+      const existing = matchMap.get(match.matchNumber);
+      if (!existing || match.priceUSD < existing.priceUSD) {
+        matchMap.set(match.matchNumber, match);
+      }
+    }
+    
+    const uniqueMatches = Array.from(matchMap.values());
+    uniqueMatches.sort((a, b) => a.matchNumber - b.matchNumber);
 
-    // Create timestamp
+    console.log(`\n📊 TOTAL: ${uniqueMatches.length} unique matches with pricing\n`);
+
     const now = new Date();
     const timestamp = now.toISOString().split('T')[0];
-    
-    // Sort all data by Match Number (1 to 104)
-    allMatchesWithPricing.sort((a, b) => a.matchNumber - b.matchNumber);
 
     const data = {
       scrapedAt: now.toISOString(),
       exchangeRates: rates,
-      totalMatchesWithPricing: allMatchesWithPricing.length,
-      matches: allMatchesWithPricing
+      totalMatches: uniqueMatches.length,
+      matches: uniqueMatches
     };
 
-    // Save JSON
-    const jsonFilename = `data/fifa_data_${timestamp}.json`;
-    const latestFilename = 'data/fifa_data_latest.json';
-    
     if (!fs.existsSync('data')) {
       fs.mkdirSync('data');
     }
     
-    fs.writeFileSync(jsonFilename, JSON.stringify(data, null, 2));
-    fs.writeFileSync(latestFilename, JSON.stringify(data, null, 2));
-    console.log(`📁 Saved JSON: ${jsonFilename}`);
+    fs.writeFileSync(`data/fifa_data_${timestamp}.json`, JSON.stringify(data, null, 2));
+    fs.writeFileSync('data/fifa_data_latest.json', JSON.stringify(data, null, 2));
+    console.log(`📁 Saved JSON`);
 
-    // --- CHANGE: Create Final Consumable CSV ---
+    // CSV - ONE ROW PER MATCH
     const csvRows = [
-      'Match Number,Stage,Host Team,Away Team,Venue,City,Country,Date,Time,Lounge Type,Original Price,Original Currency,Price (USD),Portal'
+      'Match Number,Stage,Host Team,Away Team,Venue,City,Country,Date,Time,Starting Price,Starting Lounge,Original Currency,Price (USD),Portal'
     ];
     
-    allMatchesWithPricing.forEach(match => {
-      match.lounges.forEach(lounge => {
-        csvRows.push([
-          match.matchNumber,  // <--- Primary Column
-          `"${match.stage}"`,
-          `"${match.hostTeam.name}"`,
-          `"${match.opposingTeam.name}"`,
-          `"${match.venue.name}"`,
-          `"${match.venue.town}"`,
-          `"${match.venue.country}"`,
-          `"${match.matchDate}"`,
-          `"${match.matchDayTime}"`,
-          `"${lounge.title}"`,
-          lounge.priceNumber,
-          match.originalCurrency,
-          lounge.priceUSD,    // <--- Converted USD Price
-          match.portal
-        ].join(','));
-      });
+    uniqueMatches.forEach(match => {
+      csvRows.push([
+        match.matchNumber,
+        `"${match.stage}"`,
+        `"${match.hostTeam}"`,
+        `"${match.opposingTeam}"`,
+        `"${match.venue}"`,
+        `"${match.city}"`,
+        `"${match.country}"`,
+        `"${match.matchDate}"`,
+        `"${match.matchDayTime}"`,
+        match.startingPrice,
+        `"${match.startingLounge}"`,
+        match.originalCurrency,
+        match.priceUSD,
+        `"${match.portal}"`
+      ].join(','));
     });
     
-    const csvFilename = `data/fifa_data_${timestamp}.csv`;
-    const latestCsvFilename = 'data/fifa_data_latest.csv';
+    fs.writeFileSync(`data/fifa_data_${timestamp}.csv`, csvRows.join('\n'));
+    fs.writeFileSync('data/fifa_data_latest.csv', csvRows.join('\n'));
     
-    fs.writeFileSync(csvFilename, csvRows.join('\n'));
-    fs.writeFileSync(latestCsvFilename, csvRows.join('\n'));
-    
-    console.log(`📁 Saved CSV: ${csvFilename}`);
+    console.log(`📁 Saved CSV`);
     console.log('\n✅ Scraping complete!');
     
     return data;
