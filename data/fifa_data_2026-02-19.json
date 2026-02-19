@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-02-19T03:27:13.787Z",
+  "scrapedAt": "2026-02-19T12:43:32.531Z",
   "exchangeRates": {
     "USD": 1,
     "AED": 3.67,
@@ -168,5349 +168,1575 @@
     "ZWG": 25.6,
     "ZWL": 25.6
   },
-  "totalMatchesWithPricing": 100,
+  "totalMatches": 98,
   "matches": [
     {
-      "performanceId": 10229203836811,
       "matchNumber": 2,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Korea Republic",
-        "code": "KOR"
-      },
-      "opposingTeam": {
-        "name": "European Play-Off D",
-        "code": "E_D"
-      },
-      "venue": {
-        "name": "Guadalajara Stadium",
-        "code": "NN_GDL",
-        "town": "Zapopan",
-        "country": "Mexico"
-      },
+      "hostTeam": "Korea Republic",
+      "opposingTeam": "European Play-Off D",
+      "venue": "Guadalajara Stadium",
+      "city": "Zapopan",
+      "country": "Mexico",
       "matchDate": "June 11",
       "matchDayTime": "Thursday, 8pm CT",
-      "countryCode": "MX",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $103,000 MXN / per person",
-          "priceNumber": 103000,
-          "priceUSD": 5995
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $78,650 MXN / per person",
-          "priceNumber": 78650,
-          "priceUSD": 4578
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $67,000 MXN / per person",
-          "priceNumber": 67000,
-          "priceUSD": 3900
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $51,300 MXN / per person",
-          "priceNumber": 51300,
-          "priceUSD": 2986
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $34,200 MXN / per person",
-          "priceNumber": 34200,
-          "priceUSD": 1991
-        }
-      ],
-      "portal": "Mexico",
-      "originalCurrency": "MXN"
+      "startingPrice": 34200,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 1991,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836203,
       "matchNumber": 3,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Canada",
-        "code": "CAN"
-      },
-      "opposingTeam": {
-        "name": "European Play-Off A",
-        "code": "E_A"
-      },
-      "venue": {
-        "name": "Toronto Stadium",
-        "code": "NN_TOR",
-        "town": "Toronto",
-        "country": "Canada"
-      },
+      "hostTeam": "Canada",
+      "opposingTeam": "European Play-Off A",
+      "venue": "Toronto Stadium",
+      "city": "Toronto",
+      "country": "Canada",
       "matchDate": "June 12",
       "matchDayTime": "Friday, 3pm ET",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $11,000 CAD / per person",
-          "priceNumber": 11000,
-          "priceUSD": 8029
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $7,975 CAD / per person",
-          "priceNumber": 7975,
-          "priceUSD": 5821
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $6,975 CAD / per person",
-          "priceNumber": 6975,
-          "priceUSD": 5091
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $6,375 CAD / per person",
-          "priceNumber": 6375,
-          "priceUSD": 4653
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $4,650 CAD / per person",
-          "priceNumber": 4650,
-          "priceUSD": 3394
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 6375,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 371,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824790,
       "matchNumber": 4,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "USA",
-        "code": "USA"
-      },
-      "opposingTeam": {
-        "name": "Paraguay",
-        "code": "PAR"
-      },
-      "venue": {
-        "name": "Los Angeles Stadium",
-        "code": "NN_LA",
-        "town": "Inglewood",
-        "country": "United States"
-      },
+      "hostTeam": "USA",
+      "opposingTeam": "Paraguay",
+      "venue": "Los Angeles Stadium",
+      "city": "Inglewood",
+      "country": "United States",
       "matchDate": "June 12",
       "matchDayTime": "Friday, 6pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,850 USD / per person",
-          "priceNumber": 5850,
-          "priceUSD": 5850
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,950 USD / per person",
-          "priceNumber": 4950,
-          "priceUSD": 4950
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,350 USD / per person",
-          "priceNumber": 4350,
-          "priceUSD": 4350
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,650 USD / per person",
-          "priceNumber": 3650,
-          "priceUSD": 3650
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3000,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 175,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824791,
       "matchNumber": 5,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Haiti",
-        "code": "HAI"
-      },
-      "opposingTeam": {
-        "name": "Scotland",
-        "code": "SCO"
-      },
-      "venue": {
-        "name": "Boston Stadium",
-        "code": "NN_BOS",
-        "town": "Foxborough",
-        "country": "United States"
-      },
+      "hostTeam": "Haiti",
+      "opposingTeam": "Scotland",
+      "venue": "Boston Stadium",
+      "city": "Foxborough",
+      "country": "United States",
       "matchDate": "June 13",
       "matchDayTime": "Saturday, 9pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,900 USD / per person",
-          "priceNumber": 3900,
-          "priceUSD": 3900
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,400 USD / per person",
-          "priceNumber": 2400,
-          "priceUSD": 2400
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,200 USD / per person",
-          "priceNumber": 2200,
-          "priceUSD": 2200
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2400,
+      "startingLounge": "Trophy Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 140,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836214,
       "matchNumber": 6,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Australia",
-        "code": "AUS"
-      },
-      "opposingTeam": {
-        "name": "European Play-Off C",
-        "code": "E_C"
-      },
-      "venue": {
-        "name": "BC Place Vancouver",
-        "code": "NN_VAN",
-        "town": "Vancouver",
-        "country": "Canada"
-      },
+      "hostTeam": "Australia",
+      "opposingTeam": "European Play-Off C",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "country": "Canada",
       "matchDate": "June 13",
       "matchDayTime": "Saturday, 9pm PT",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,350 CAD / per person",
-          "priceNumber": 6350,
-          "priceUSD": 4635
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $4,850 CAD / per person",
-          "priceNumber": 4850,
-          "priceUSD": 3540
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,250 CAD / per person",
-          "priceNumber": 4250,
-          "priceUSD": 3102
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,575 CAD / per person",
-          "priceNumber": 3575,
-          "priceUSD": 2609
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,950 CAD / per person",
-          "priceNumber": 2950,
-          "priceUSD": 2153
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 2950,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 172,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824792,
       "matchNumber": 7,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Brazil",
-        "code": "BRA"
-      },
-      "opposingTeam": {
-        "name": "Morocco",
-        "code": "MAR"
-      },
-      "venue": {
-        "name": "New York New Jersey Stadium",
-        "code": "NN_NYNJ",
-        "town": "East Rutherford",
-        "country": "United States"
-      },
+      "hostTeam": "Brazil",
+      "opposingTeam": "Morocco",
+      "venue": "New York New Jersey Stadium",
+      "city": "East Rutherford",
+      "country": "United States",
       "matchDate": "June 13",
       "matchDayTime": "Saturday, 6pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,600 USD / per person",
-          "priceNumber": 6600,
-          "priceUSD": 6600
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,500 USD / per person",
-          "priceNumber": 4500,
-          "priceUSD": 4500
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,700 USD / per person",
-          "priceNumber": 3700,
-          "priceUSD": 3700
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,400 USD / per person",
-          "priceNumber": 3400,
-          "priceUSD": 3400
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,900 USD / per person",
-          "priceNumber": 2900,
-          "priceUSD": 2900
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3400,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 198,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825105,
       "matchNumber": 8,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Qatar",
-        "code": "QAT"
-      },
-      "opposingTeam": {
-        "name": "Switzerland",
-        "code": "SUI"
-      },
-      "venue": {
-        "name": "San Francisco Bay Area Stadium",
-        "code": "NN_SFBA",
-        "town": "Santa Clara",
-        "country": "United States"
-      },
+      "hostTeam": "Qatar",
+      "opposingTeam": "Switzerland",
+      "venue": "San Francisco Bay Area Stadium",
+      "city": "Santa Clara",
+      "country": "United States",
       "matchDate": "June 13",
       "matchDayTime": "Saturday, 12pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,400 USD / per person",
-          "priceNumber": 3400,
-          "priceUSD": 3400
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,900 USD / per person",
-          "priceNumber": 2900,
-          "priceUSD": 2900
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,375 USD / per person",
-          "priceNumber": 2375,
-          "priceUSD": 2375
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,100 USD / per person",
-          "priceNumber": 2100,
-          "priceUSD": 2100
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2300,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 134,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825106,
       "matchNumber": 9,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Côte d'Ivoire",
-        "code": "CIV"
-      },
-      "opposingTeam": {
-        "name": "Ecuador",
-        "code": "ECU"
-      },
-      "venue": {
-        "name": "Philadelphia Stadium",
-        "code": "NN_PHL",
-        "town": "Philadelphia",
-        "country": "United States"
-      },
+      "hostTeam": "Côte d'Ivoire",
+      "opposingTeam": "Ecuador",
+      "venue": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "country": "United States",
       "matchDate": "June 14",
       "matchDayTime": "Sunday, 7pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,300 USD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 3300
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,375 USD / per person",
-          "priceNumber": 2375,
-          "priceUSD": 2375
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,000 USD / per person",
-          "priceNumber": 2000,
-          "priceUSD": 2000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2375,
+      "startingLounge": "Trophy Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 138,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825107,
       "matchNumber": 10,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Germany",
-        "code": "GER"
-      },
-      "opposingTeam": {
-        "name": "Curaçao",
-        "code": "CUW"
-      },
-      "venue": {
-        "name": "Houston Stadium",
-        "code": "NN_HOU",
-        "town": "Houston",
-        "country": "United States"
-      },
+      "hostTeam": "Germany",
+      "opposingTeam": "Curaçao",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "country": "United States",
       "matchDate": "June 14",
       "matchDayTime": "Sunday, 12pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,300 USD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 3300
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,480 USD / per person",
-          "priceNumber": 2480,
-          "priceUSD": 2480
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,420 USD / per person",
-          "priceNumber": 2420,
-          "priceUSD": 2420
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3600,
+      "startingLounge": "Pitch Side Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 210,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825108,
       "matchNumber": 11,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Netherlands",
-        "code": "NED"
-      },
-      "opposingTeam": {
-        "name": "Japan",
-        "code": "JPN"
-      },
-      "venue": {
-        "name": "Dallas Stadium",
-        "code": "NN_DAL",
-        "town": "Arlington",
-        "country": "United States"
-      },
+      "hostTeam": "Netherlands",
+      "opposingTeam": "Japan",
+      "venue": "Dallas Stadium",
+      "city": "Arlington",
+      "country": "United States",
       "matchDate": "June 14",
       "matchDayTime": "Sunday, 3pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,500 USD / per person",
-          "priceNumber": 3500,
-          "priceUSD": 3500
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,475 USD / per person",
-          "priceNumber": 2475,
-          "priceUSD": 2475
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,300 USD / per person",
-          "priceNumber": 2300,
-          "priceUSD": 2300
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2300,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 134,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836812,
       "matchNumber": 12,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "European Play-Off B",
-        "code": "E_B"
-      },
-      "opposingTeam": {
-        "name": "Tunisia",
-        "code": "TUN"
-      },
-      "venue": {
-        "name": "Monterrey Stadium",
-        "code": "NN_MTY",
-        "town": "Guadalupe",
-        "country": "Mexico"
-      },
+      "hostTeam": "European Play-Off B",
+      "opposingTeam": "Tunisia",
+      "venue": "Monterrey Stadium",
+      "city": "Guadalupe",
+      "country": "Mexico",
       "matchDate": "June 14",
       "matchDayTime": "Sunday, 8pm CT",
-      "countryCode": "MX",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $87,500 MXN / per person",
-          "priceNumber": 87500,
-          "priceUSD": 5093
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $82,950 MXN / per person",
-          "priceNumber": 82950,
-          "priceUSD": 4828
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $62,880 MXN / per person",
-          "priceNumber": 62880,
-          "priceUSD": 3660
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $61,350 MXN / per person",
-          "priceNumber": 61350,
-          "priceUSD": 3571
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $35,700 MXN / per person",
-          "priceNumber": 35700,
-          "priceUSD": 2078
-        }
-      ],
-      "portal": "Mexico",
-      "originalCurrency": "MXN"
+      "startingPrice": 61350,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 3571,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825109,
       "matchNumber": 13,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Saudi Arabia",
-        "code": "KSA"
-      },
-      "opposingTeam": {
-        "name": "Uruguay",
-        "code": "URU"
-      },
-      "venue": {
-        "name": "Miami Stadium",
-        "code": "NN_MIA",
-        "town": "Miami Gardens",
-        "country": "United States"
-      },
+      "hostTeam": "Saudi Arabia",
+      "opposingTeam": "Uruguay",
+      "venue": "Miami Stadium",
+      "city": "Miami Gardens",
+      "country": "United States",
       "matchDate": "June 15",
       "matchDayTime": "Monday, 6pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,520 USD / per person",
-          "priceNumber": 3520,
-          "priceUSD": 3520
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,350 USD / per person",
-          "priceNumber": 2350,
-          "priceUSD": 2350
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,000 USD / per person",
-          "priceNumber": 2000,
-          "priceUSD": 2000
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,750 USD / per person",
-          "priceNumber": 1750,
-          "priceUSD": 1750
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1750,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 102,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825110,
       "matchNumber": 14,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Spain",
-        "code": "ESP"
-      },
-      "opposingTeam": {
-        "name": "Cabo Verde",
-        "code": "CPV"
-      },
-      "venue": {
-        "name": "Atlanta Stadium",
-        "code": "NN_ATL",
-        "town": "Atlanta",
-        "country": "United States"
-      },
+      "hostTeam": "Spain",
+      "opposingTeam": "Cabo Verde",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "country": "United States",
       "matchDate": "June 15",
       "matchDayTime": "Monday, 12pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,350 USD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 3350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,850 USD / per person",
-          "priceNumber": 2850,
-          "priceUSD": 2850
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,050 USD / per person",
-          "priceNumber": 2050,
-          "priceUSD": 2050
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2050,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 119,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825111,
       "matchNumber": 15,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "IR Iran",
-        "code": "IRN"
-      },
-      "opposingTeam": {
-        "name": "New Zealand",
-        "code": "NZL"
-      },
-      "venue": {
-        "name": "Los Angeles Stadium",
-        "code": "NN_LA",
-        "town": "Inglewood",
-        "country": "United States"
-      },
+      "hostTeam": "IR Iran",
+      "opposingTeam": "New Zealand",
+      "venue": "Los Angeles Stadium",
+      "city": "Inglewood",
+      "country": "United States",
       "matchDate": "June 15",
       "matchDayTime": "Monday, 6pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,350 USD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 3350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,950 USD / per person",
-          "priceNumber": 2950,
-          "priceUSD": 2950
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,150 USD / per person",
-          "priceNumber": 2150,
-          "priceUSD": 2150
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,400 USD / per person",
-          "priceNumber": 1400,
-          "priceUSD": 1400
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1400,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 81,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825112,
       "matchNumber": 16,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Belgium",
-        "code": "BEL"
-      },
-      "opposingTeam": {
-        "name": "Egypt",
-        "code": "EGY"
-      },
-      "venue": {
-        "name": "Seattle Stadium",
-        "code": "NN_SEA",
-        "town": "Seattle",
-        "country": "United States"
-      },
+      "hostTeam": "Belgium",
+      "opposingTeam": "Egypt",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "country": "United States",
       "matchDate": "June 15",
       "matchDayTime": "Monday, 12pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,750 USD / per person",
-          "priceNumber": 4750,
-          "priceUSD": 4750
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,250 USD / per person",
-          "priceNumber": 4250,
-          "priceUSD": 4250
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,690 USD / per person",
-          "priceNumber": 2690,
-          "priceUSD": 2690
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,250 USD / per person",
-          "priceNumber": 2250,
-          "priceUSD": 2250
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,575 USD / per person",
-          "priceNumber": 1575,
-          "priceUSD": 1575
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1575,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 92,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825113,
       "matchNumber": 17,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "France",
-        "code": "FRA"
-      },
-      "opposingTeam": {
-        "name": "Senegal",
-        "code": "SEN"
-      },
-      "venue": {
-        "name": "New York New Jersey Stadium",
-        "code": "NN_NYNJ",
-        "town": "East Rutherford",
-        "country": "United States"
-      },
+      "hostTeam": "France",
+      "opposingTeam": "Senegal",
+      "venue": "New York New Jersey Stadium",
+      "city": "East Rutherford",
+      "country": "United States",
       "matchDate": "June 16",
       "matchDayTime": "Tuesday, 3pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,500 USD / per person",
-          "priceNumber": 4500,
-          "priceUSD": 4500
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,400 USD / per person",
-          "priceNumber": 3400,
-          "priceUSD": 3400
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,900 USD / per person",
-          "priceNumber": 2900,
-          "priceUSD": 2900
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,300 USD / per person",
-          "priceNumber": 2300,
-          "priceUSD": 2300
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2300,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 134,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825093,
       "matchNumber": 18,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "FIFA Play-Off 2",
-        "code": "F_2"
-      },
-      "opposingTeam": {
-        "name": "Norway",
-        "code": "NOR"
-      },
-      "venue": {
-        "name": "Boston Stadium",
-        "code": "NN_BOS",
-        "town": "Foxborough",
-        "country": "United States"
-      },
+      "hostTeam": "FIFA Play-Off 2",
+      "opposingTeam": "Norway",
+      "venue": "Boston Stadium",
+      "city": "Foxborough",
+      "country": "United States",
       "matchDate": "June 16",
       "matchDayTime": "Tuesday, 6pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,150 USD / per person",
-          "priceNumber": 3150,
-          "priceUSD": 3150
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,900 USD / per person",
-          "priceNumber": 2900,
-          "priceUSD": 2900
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,225 USD / per person",
-          "priceNumber": 2225,
-          "priceUSD": 2225
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,000 USD / per person",
-          "priceNumber": 2000,
-          "priceUSD": 2000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2000,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 116,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825114,
       "matchNumber": 19,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Argentina",
-        "code": "ARG"
-      },
-      "opposingTeam": {
-        "name": "Algeria",
-        "code": "ALG"
-      },
-      "venue": {
-        "name": "Kansas City Stadium",
-        "code": "NN_KC",
-        "town": "Kansas City",
-        "country": "United States"
-      },
+      "hostTeam": "Argentina",
+      "opposingTeam": "Algeria",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "country": "United States",
       "matchDate": "June 16",
       "matchDayTime": "Tuesday, 8pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,150 USD / per person",
-          "priceNumber": 3150,
-          "priceUSD": 3150
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,740 USD / per person",
-          "priceNumber": 2740,
-          "priceUSD": 2740
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,540 USD / per person",
-          "priceNumber": 2540,
-          "priceUSD": 2540
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,310 USD / per person",
-          "priceNumber": 2310,
-          "priceUSD": 2310
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,000 USD / per person",
-          "priceNumber": 2000,
-          "priceUSD": 2000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2000,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 116,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825095,
       "matchNumber": 20,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Austria",
-        "code": "AUT"
-      },
-      "opposingTeam": {
-        "name": "Jordan",
-        "code": "JOR"
-      },
-      "venue": {
-        "name": "San Francisco Bay Area Stadium",
-        "code": "NN_SFBA",
-        "town": "Santa Clara",
-        "country": "United States"
-      },
+      "hostTeam": "Austria",
+      "opposingTeam": "Jordan",
+      "venue": "San Francisco Bay Area Stadium",
+      "city": "Santa Clara",
+      "country": "United States",
       "matchDate": "June 16",
       "matchDayTime": "Tuesday, 9pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,250 USD / per person",
-          "priceNumber": 2250,
-          "priceUSD": 2250
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,000 USD / per person",
-          "priceNumber": 2000,
-          "priceUSD": 2000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2000,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 116,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836204,
       "matchNumber": 21,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Ghana",
-        "code": "GHA"
-      },
-      "opposingTeam": {
-        "name": "Panama",
-        "code": "PAN"
-      },
-      "venue": {
-        "name": "Toronto Stadium",
-        "code": "NN_TOR",
-        "town": "Toronto",
-        "country": "Canada"
-      },
+      "hostTeam": "Ghana",
+      "opposingTeam": "Panama",
+      "venue": "Toronto Stadium",
+      "city": "Toronto",
+      "country": "Canada",
       "matchDate": "June 17",
       "matchDayTime": "Wednesday, 7pm ET",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,350 CAD / per person",
-          "priceNumber": 5350,
-          "priceUSD": 3905
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $4,550 CAD / per person",
-          "priceNumber": 4550,
-          "priceUSD": 3321
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,750 CAD / per person",
-          "priceNumber": 3750,
-          "priceUSD": 2737
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,300 CAD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 2409
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,500 CAD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 1825
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 3940,
+      "startingLounge": "Trophy Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 229,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825094,
       "matchNumber": 22,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "England",
-        "code": "ENG"
-      },
-      "opposingTeam": {
-        "name": "Croatia",
-        "code": "CRO"
-      },
-      "venue": {
-        "name": "Dallas Stadium",
-        "code": "NN_DAL",
-        "town": "Arlington",
-        "country": "United States"
-      },
+      "hostTeam": "England",
+      "opposingTeam": "Croatia",
+      "venue": "Dallas Stadium",
+      "city": "Arlington",
+      "country": "United States",
       "matchDate": "June 17",
       "matchDayTime": "Wednesday, 3pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,450 USD / per person",
-          "priceNumber": 3450,
-          "priceUSD": 3450
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,430 USD / per person",
-          "priceNumber": 2430,
-          "priceUSD": 2430
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2430,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 141,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825096,
       "matchNumber": 23,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Portugal",
-        "code": "POR"
-      },
-      "opposingTeam": {
-        "name": "FIFA Play-Off 1",
-        "code": "F_1"
-      },
-      "venue": {
-        "name": "Houston Stadium",
-        "code": "NN_HOU",
-        "town": "Houston",
-        "country": "United States"
-      },
+      "hostTeam": "Portugal",
+      "opposingTeam": "FIFA Play-Off 1",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "country": "United States",
       "matchDate": "June 17",
       "matchDayTime": "Wednesday, 12pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,700 USD / per person",
-          "priceNumber": 2700,
-          "priceUSD": 2700
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,475 USD / per person",
-          "priceNumber": 2475,
-          "priceUSD": 2475
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,450 USD / per person",
-          "priceNumber": 2450,
-          "priceUSD": 2450
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2450,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 143,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836813,
       "matchNumber": 24,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Uzbekistan",
-        "code": "UZB"
-      },
-      "opposingTeam": {
-        "name": "Colombia",
-        "code": "COL"
-      },
-      "venue": {
-        "name": "Mexico City Stadium",
-        "code": "NN_CDMX",
-        "town": "Ciudad de México",
-        "country": "Mexico"
-      },
+      "hostTeam": "Uzbekistan",
+      "opposingTeam": "Colombia",
+      "venue": "Mexico City Stadium",
+      "city": "Ciudad de México",
+      "country": "Mexico",
       "matchDate": "June 17",
       "matchDayTime": "Wednesday, 9pm CT",
-      "countryCode": "MX",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $110,000 MXN / per person",
-          "priceNumber": 110000,
-          "priceUSD": 6403
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $85,000 MXN / per person",
-          "priceNumber": 85000,
-          "priceUSD": 4948
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $75,000 MXN / per person",
-          "priceNumber": 75000,
-          "priceUSD": 4366
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $67,500 MXN / per person",
-          "priceNumber": 67500,
-          "priceUSD": 3929
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $58,370 MXN / per person",
-          "priceNumber": 58370,
-          "priceUSD": 3398
-        }
-      ],
-      "portal": "Mexico",
-      "originalCurrency": "MXN"
+      "startingPrice": 67500,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 3929,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825097,
       "matchNumber": 25,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "European Play-Off D",
-        "code": "E_D"
-      },
-      "opposingTeam": {
-        "name": "South Africa",
-        "code": "RSA"
-      },
-      "venue": {
-        "name": "Atlanta Stadium",
-        "code": "NN_ATL",
-        "town": "Atlanta",
-        "country": "United States"
-      },
+      "hostTeam": "European Play-Off D",
+      "opposingTeam": "South Africa",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "country": "United States",
       "matchDate": "June 18",
       "matchDayTime": "Thursday, 12pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,350 USD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 3350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,300 USD / per person",
-          "priceNumber": 2300,
-          "priceUSD": 2300
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,000 USD / per person",
-          "priceNumber": 2000,
-          "priceUSD": 2000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2000,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 116,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825098,
       "matchNumber": 26,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Switzerland",
-        "code": "SUI"
-      },
-      "opposingTeam": {
-        "name": "European Play-Off A",
-        "code": "E_A"
-      },
-      "venue": {
-        "name": "Los Angeles Stadium",
-        "code": "NN_LA",
-        "town": "Inglewood",
-        "country": "United States"
-      },
+      "hostTeam": "Switzerland",
+      "opposingTeam": "European Play-Off A",
+      "venue": "Los Angeles Stadium",
+      "city": "Inglewood",
+      "country": "United States",
       "matchDate": "June 18",
       "matchDayTime": "Thursday, 12pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,400 USD / per person",
-          "priceNumber": 3400,
-          "priceUSD": 3400
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,200 USD / per person",
-          "priceNumber": 2200,
-          "priceUSD": 2200
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,510 USD / per person",
-          "priceNumber": 1510,
-          "priceUSD": 1510
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1510,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 88,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836215,
       "matchNumber": 27,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Canada",
-        "code": "CAN"
-      },
-      "opposingTeam": {
-        "name": "Qatar",
-        "code": "QAT"
-      },
-      "venue": {
-        "name": "BC Place Vancouver",
-        "code": "NN_VAN",
-        "town": "Vancouver",
-        "country": "Canada"
-      },
+      "hostTeam": "Canada",
+      "opposingTeam": "Qatar",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "country": "Canada",
       "matchDate": "June 18",
       "matchDayTime": "Thursday, 3pm PT",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $9,150 CAD / per person",
-          "priceNumber": 9150,
-          "priceUSD": 6679
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $6,275 CAD / per person",
-          "priceNumber": 6275,
-          "priceUSD": 4580
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $5,300 CAD / per person",
-          "priceNumber": 5300,
-          "priceUSD": 3869
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,875 CAD / per person",
-          "priceNumber": 3875,
-          "priceUSD": 2828
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $3,575 CAD / per person",
-          "priceNumber": 3575,
-          "priceUSD": 2609
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 3575,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 208,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825099,
       "matchNumber": 29,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Brazil",
-        "code": "BRA"
-      },
-      "opposingTeam": {
-        "name": "Haiti",
-        "code": "HAI"
-      },
-      "venue": {
-        "name": "Philadelphia Stadium",
-        "code": "NN_PHL",
-        "town": "Philadelphia",
-        "country": "United States"
-      },
+      "hostTeam": "Brazil",
+      "opposingTeam": "Haiti",
+      "venue": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "country": "United States",
       "matchDate": "June 19",
       "matchDayTime": "Friday, 9pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,300 USD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 3300
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,490 USD / per person",
-          "priceNumber": 2490,
-          "priceUSD": 2490
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,310 USD / per person",
-          "priceNumber": 2310,
-          "priceUSD": 2310
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2490,
+      "startingLounge": "Trophy Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 145,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825100,
       "matchNumber": 30,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Scotland",
-        "code": "SCO"
-      },
-      "opposingTeam": {
-        "name": "Morocco",
-        "code": "MAR"
-      },
-      "venue": {
-        "name": "Boston Stadium",
-        "code": "NN_BOS",
-        "town": "Foxborough",
-        "country": "United States"
-      },
+      "hostTeam": "Scotland",
+      "opposingTeam": "Morocco",
+      "venue": "Boston Stadium",
+      "city": "Foxborough",
+      "country": "United States",
       "matchDate": "June 19",
       "matchDayTime": "Friday, 6pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,350 USD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 3350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,850 USD / per person",
-          "priceNumber": 2850,
-          "priceUSD": 2850
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,350 USD / per person",
-          "priceNumber": 2350,
-          "priceUSD": 2350
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,050 USD / per person",
-          "priceNumber": 2050,
-          "priceUSD": 2050
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2200,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 128,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825101,
       "matchNumber": 31,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "European Play-Off C",
-        "code": "E_C"
-      },
-      "opposingTeam": {
-        "name": "Paraguay",
-        "code": "PAR"
-      },
-      "venue": {
-        "name": "San Francisco Bay Area Stadium",
-        "code": "NN_SFBA",
-        "town": "Santa Clara",
-        "country": "United States"
-      },
+      "hostTeam": "European Play-Off C",
+      "opposingTeam": "Paraguay",
+      "venue": "San Francisco Bay Area Stadium",
+      "city": "Santa Clara",
+      "country": "United States",
       "matchDate": "June 19",
       "matchDayTime": "Friday, 9pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,400 USD / per person",
-          "priceNumber": 3400,
-          "priceUSD": 3400
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,900 USD / per person",
-          "priceNumber": 2900,
-          "priceUSD": 2900
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,375 USD / per person",
-          "priceNumber": 2375,
-          "priceUSD": 2375
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,100 USD / per person",
-          "priceNumber": 2100,
-          "priceUSD": 2100
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2100,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 122,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825102,
       "matchNumber": 32,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "USA",
-        "code": "USA"
-      },
-      "opposingTeam": {
-        "name": "Australia",
-        "code": "AUS"
-      },
-      "venue": {
-        "name": "Seattle Stadium",
-        "code": "NN_SEA",
-        "town": "Seattle",
-        "country": "United States"
-      },
+      "hostTeam": "USA",
+      "opposingTeam": "Australia",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "country": "United States",
       "matchDate": "June 19",
       "matchDayTime": "Friday, 12pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,500 USD / per person",
-          "priceNumber": 5500,
-          "priceUSD": 5500
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,700 USD / per person",
-          "priceNumber": 4700,
-          "priceUSD": 4700
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,100 USD / per person",
-          "priceNumber": 4100,
-          "priceUSD": 4100
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,975 USD / per person",
-          "priceNumber": 2975,
-          "priceUSD": 2975
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,650 USD / per person",
-          "priceNumber": 2650,
-          "priceUSD": 2650
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2650,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 154,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836205,
       "matchNumber": 33,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Germany",
-        "code": "GER"
-      },
-      "opposingTeam": {
-        "name": "Côte d'Ivoire",
-        "code": "CIV"
-      },
-      "venue": {
-        "name": "Toronto Stadium",
-        "code": "NN_TOR",
-        "town": "Toronto",
-        "country": "Canada"
-      },
+      "hostTeam": "Germany",
+      "opposingTeam": "Côte d'Ivoire",
+      "venue": "Toronto Stadium",
+      "city": "Toronto",
+      "country": "Canada",
       "matchDate": "June 20",
       "matchDayTime": "Saturday, 4pm ET",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,500 CAD / per person",
-          "priceNumber": 5500,
-          "priceUSD": 4015
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $4,750 CAD / per person",
-          "priceNumber": 4750,
-          "priceUSD": 3467
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,800 CAD / per person",
-          "priceNumber": 3800,
-          "priceUSD": 2774
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,300 CAD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 2409
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,500 CAD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 1825
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 5100,
+      "startingLounge": "Lounge 1930",
+      "originalCurrency": "MXN",
+      "priceUSD": 297,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825103,
       "matchNumber": 34,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Ecuador",
-        "code": "ECU"
-      },
-      "opposingTeam": {
-        "name": "Curaçao",
-        "code": "CUW"
-      },
-      "venue": {
-        "name": "Kansas City Stadium",
-        "code": "NN_KC",
-        "town": "Kansas City",
-        "country": "United States"
-      },
+      "hostTeam": "Ecuador",
+      "opposingTeam": "Curaçao",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "country": "United States",
       "matchDate": "June 20",
       "matchDayTime": "Saturday, 7pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,350 USD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 3350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,850 USD / per person",
-          "priceNumber": 2850,
-          "priceUSD": 2850
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,400 USD / per person",
-          "priceNumber": 2400,
-          "priceUSD": 2400
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,050 USD / per person",
-          "priceNumber": 2050,
-          "priceUSD": 2050
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,475 USD / per person",
-          "priceNumber": 1475,
-          "priceUSD": 1475
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1475,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 86,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203825104,
       "matchNumber": 35,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Netherlands",
-        "code": "NED"
-      },
-      "opposingTeam": {
-        "name": "European Play-Off B",
-        "code": "E_B"
-      },
-      "venue": {
-        "name": "Houston Stadium",
-        "code": "NN_HOU",
-        "town": "Houston",
-        "country": "United States"
-      },
+      "hostTeam": "Netherlands",
+      "opposingTeam": "European Play-Off B",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "country": "United States",
       "matchDate": "June 20",
       "matchDayTime": "Saturday, 12pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,300 USD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 3300
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,480 USD / per person",
-          "priceNumber": 2480,
-          "priceUSD": 2480
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,420 USD / per person",
-          "priceNumber": 2420,
-          "priceUSD": 2420
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2420,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 141,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836815,
-      "matchNumber": 36,
-      "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Tunisia",
-        "code": "TUN"
-      },
-      "opposingTeam": {
-        "name": "Japan",
-        "code": "JPN"
-      },
-      "venue": {
-        "name": "Monterrey Stadium",
-        "code": "NN_MTY",
-        "town": "Guadalupe",
-        "country": "Mexico"
-      },
-      "matchDate": "June 20",
-      "matchDayTime": "Saturday, 10pm CT",
-      "countryCode": "MX",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $91,000 MXN / per person",
-          "priceNumber": 91000,
-          "priceUSD": 5297
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $81,450 MXN / per person",
-          "priceNumber": 81450,
-          "priceUSD": 4741
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $69,400 MXN / per person",
-          "priceNumber": 69400,
-          "priceUSD": 4040
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $62,350 MXN / per person",
-          "priceNumber": 62350,
-          "priceUSD": 3629
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $39,700 MXN / per person",
-          "priceNumber": 39700,
-          "priceUSD": 2311
-        }
-      ],
-      "portal": "Mexico",
-      "originalCurrency": "MXN"
-    },
-    {
-      "performanceId": 10229203824793,
       "matchNumber": 37,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Uruguay",
-        "code": "URU"
-      },
-      "opposingTeam": {
-        "name": "Cabo Verde",
-        "code": "CPV"
-      },
-      "venue": {
-        "name": "Miami Stadium",
-        "code": "NN_MIA",
-        "town": "Miami Gardens",
-        "country": "United States"
-      },
+      "hostTeam": "Uruguay",
+      "opposingTeam": "Cabo Verde",
+      "venue": "Miami Stadium",
+      "city": "Miami Gardens",
+      "country": "United States",
       "matchDate": "June 21",
       "matchDayTime": "Sunday, 6pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,940 USD / per person",
-          "priceNumber": 3940,
-          "priceUSD": 3940
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,475 USD / per person",
-          "priceNumber": 2475,
-          "priceUSD": 2475
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,100 USD / per person",
-          "priceNumber": 2100,
-          "priceUSD": 2100
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,825 USD / per person",
-          "priceNumber": 1825,
-          "priceUSD": 1825
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1825,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 106,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824794,
       "matchNumber": 38,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Spain",
-        "code": "ESP"
-      },
-      "opposingTeam": {
-        "name": "Saudi Arabia",
-        "code": "KSA"
-      },
-      "venue": {
-        "name": "Atlanta Stadium",
-        "code": "NN_ATL",
-        "town": "Atlanta",
-        "country": "United States"
-      },
+      "hostTeam": "Spain",
+      "opposingTeam": "Saudi Arabia",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "country": "United States",
       "matchDate": "June 21",
       "matchDayTime": "Sunday, 12pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,500 USD / per person",
-          "priceNumber": 3500,
-          "priceUSD": 3500
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,950 USD / per person",
-          "priceNumber": 2950,
-          "priceUSD": 2950
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,640 USD / per person",
-          "priceNumber": 2640,
-          "priceUSD": 2640
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,150 USD / per person",
-          "priceNumber": 2150,
-          "priceUSD": 2150
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2150,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 125,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824795,
       "matchNumber": 39,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Belgium",
-        "code": "BEL"
-      },
-      "opposingTeam": {
-        "name": "IR Iran",
-        "code": "IRN"
-      },
-      "venue": {
-        "name": "Los Angeles Stadium",
-        "code": "NN_LA",
-        "town": "Inglewood",
-        "country": "United States"
-      },
+      "hostTeam": "Belgium",
+      "opposingTeam": "IR Iran",
+      "venue": "Los Angeles Stadium",
+      "city": "Inglewood",
+      "country": "United States",
       "matchDate": "June 21",
       "matchDayTime": "Sunday, 12pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,600 USD / per person",
-          "priceNumber": 3600,
-          "priceUSD": 3600
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,100 USD / per person",
-          "priceNumber": 3100,
-          "priceUSD": 3100
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,625 USD / per person",
-          "priceNumber": 2625,
-          "priceUSD": 2625
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,300 USD / per person",
-          "priceNumber": 2300,
-          "priceUSD": 2300
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,475 USD / per person",
-          "priceNumber": 1475,
-          "priceUSD": 1475
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1475,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 86,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836206,
       "matchNumber": 40,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "New Zealand",
-        "code": "NZL"
-      },
-      "opposingTeam": {
-        "name": "Egypt",
-        "code": "EGY"
-      },
-      "venue": {
-        "name": "BC Place Vancouver",
-        "code": "NN_VAN",
-        "town": "Vancouver",
-        "country": "Canada"
-      },
+      "hostTeam": "New Zealand",
+      "opposingTeam": "Egypt",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "country": "Canada",
       "matchDate": "June 21",
       "matchDayTime": "Sunday, 6pm PT",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,350 CAD / per person",
-          "priceNumber": 6350,
-          "priceUSD": 4635
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $4,850 CAD / per person",
-          "priceNumber": 4850,
-          "priceUSD": 3540
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,325 CAD / per person",
-          "priceNumber": 4325,
-          "priceUSD": 3157
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,575 CAD / per person",
-          "priceNumber": 3575,
-          "priceUSD": 2609
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,575 CAD / per person",
-          "priceNumber": 2575,
-          "priceUSD": 1880
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 2575,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 150,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824796,
       "matchNumber": 41,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Norway",
-        "code": "NOR"
-      },
-      "opposingTeam": {
-        "name": "Senegal",
-        "code": "SEN"
-      },
-      "venue": {
-        "name": "New York New Jersey Stadium",
-        "code": "NN_NYNJ",
-        "town": "East Rutherford",
-        "country": "United States"
-      },
+      "hostTeam": "Norway",
+      "opposingTeam": "Senegal",
+      "venue": "New York New Jersey Stadium",
+      "city": "East Rutherford",
+      "country": "United States",
       "matchDate": "June 22",
       "matchDayTime": "Monday, 8pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,500 USD / per person",
-          "priceNumber": 3500,
-          "priceUSD": 3500
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,800 USD / per person",
-          "priceNumber": 1800,
-          "priceUSD": 1800
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1800,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 105,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824797,
       "matchNumber": 42,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "France",
-        "code": "FRA"
-      },
-      "opposingTeam": {
-        "name": "FIFA Play-Off 2",
-        "code": "F_2"
-      },
-      "venue": {
-        "name": "Philadelphia Stadium",
-        "code": "NN_PHL",
-        "town": "Philadelphia",
-        "country": "United States"
-      },
+      "hostTeam": "France",
+      "opposingTeam": "FIFA Play-Off 2",
+      "venue": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "country": "United States",
       "matchDate": "June 22",
       "matchDayTime": "Monday, 5pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,700 USD / per person",
-          "priceNumber": 2700,
-          "priceUSD": 2700
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,320 USD / per person",
-          "priceNumber": 2320,
-          "priceUSD": 2320
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,050 USD / per person",
-          "priceNumber": 2050,
-          "priceUSD": 2050
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2260,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 132,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824798,
       "matchNumber": 43,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Argentina",
-        "code": "ARG"
-      },
-      "opposingTeam": {
-        "name": "Austria",
-        "code": "AUT"
-      },
-      "venue": {
-        "name": "Dallas Stadium",
-        "code": "NN_DAL",
-        "town": "Arlington",
-        "country": "United States"
-      },
+      "hostTeam": "Argentina",
+      "opposingTeam": "Austria",
+      "venue": "Dallas Stadium",
+      "city": "Arlington",
+      "country": "United States",
       "matchDate": "June 22",
       "matchDayTime": "Monday, 12pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,450 USD / per person",
-          "priceNumber": 3450,
-          "priceUSD": 3450
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,430 USD / per person",
-          "priceNumber": 2430,
-          "priceUSD": 2430
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2430,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 141,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824799,
       "matchNumber": 44,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Jordan",
-        "code": "JOR"
-      },
-      "opposingTeam": {
-        "name": "Algeria",
-        "code": "ALG"
-      },
-      "venue": {
-        "name": "San Francisco Bay Area Stadium",
-        "code": "NN_SFBA",
-        "town": "Santa Clara",
-        "country": "United States"
-      },
+      "hostTeam": "Jordan",
+      "opposingTeam": "Algeria",
+      "venue": "San Francisco Bay Area Stadium",
+      "city": "Santa Clara",
+      "country": "United States",
       "matchDate": "June 22",
       "matchDayTime": "Monday, 8pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,250 USD / per person",
-          "priceNumber": 2250,
-          "priceUSD": 2250
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,000 USD / per person",
-          "priceNumber": 2000,
-          "priceUSD": 2000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2000,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 116,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824800,
       "matchNumber": 45,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "England",
-        "code": "ENG"
-      },
-      "opposingTeam": {
-        "name": "Ghana",
-        "code": "GHA"
-      },
-      "venue": {
-        "name": "Boston Stadium",
-        "code": "NN_BOS",
-        "town": "Foxborough",
-        "country": "United States"
-      },
+      "hostTeam": "England",
+      "opposingTeam": "Ghana",
+      "venue": "Boston Stadium",
+      "city": "Foxborough",
+      "country": "United States",
       "matchDate": "June 23",
       "matchDayTime": "Tuesday, 4pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,700 USD / per person",
-          "priceNumber": 2700,
-          "priceUSD": 2700
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,490 USD / per person",
-          "priceNumber": 2490,
-          "priceUSD": 2490
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,310 USD / per person",
-          "priceNumber": 2310,
-          "priceUSD": 2310
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2430,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 141,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836207,
       "matchNumber": 46,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Panama",
-        "code": "PAN"
-      },
-      "opposingTeam": {
-        "name": "Croatia",
-        "code": "CRO"
-      },
-      "venue": {
-        "name": "Toronto Stadium",
-        "code": "NN_TOR",
-        "town": "Toronto",
-        "country": "Canada"
-      },
+      "hostTeam": "Panama",
+      "opposingTeam": "Croatia",
+      "venue": "Toronto Stadium",
+      "city": "Toronto",
+      "country": "Canada",
       "matchDate": "June 23",
       "matchDayTime": "Tuesday, 7pm ET",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,350 CAD / per person",
-          "priceNumber": 5350,
-          "priceUSD": 3905
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $4,550 CAD / per person",
-          "priceNumber": 4550,
-          "priceUSD": 3321
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,850 CAD / per person",
-          "priceNumber": 3850,
-          "priceUSD": 2810
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,450 CAD / per person",
-          "priceNumber": 3450,
-          "priceUSD": 2518
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,600 CAD / per person",
-          "priceNumber": 2600,
-          "priceUSD": 1898
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 3450,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 201,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824801,
       "matchNumber": 47,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Portugal",
-        "code": "POR"
-      },
-      "opposingTeam": {
-        "name": "Uzbekistan",
-        "code": "UZB"
-      },
-      "venue": {
-        "name": "Houston Stadium",
-        "code": "NN_HOU",
-        "town": "Houston",
-        "country": "United States"
-      },
+      "hostTeam": "Portugal",
+      "opposingTeam": "Uzbekistan",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "country": "United States",
       "matchDate": "June 23",
       "matchDayTime": "Tuesday, 12pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,710 USD / per person",
-          "priceNumber": 2710,
-          "priceUSD": 2710
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,510 USD / per person",
-          "priceNumber": 2510,
-          "priceUSD": 2510
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,450 USD / per person",
-          "priceNumber": 2450,
-          "priceUSD": 2450
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2450,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 143,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836816,
       "matchNumber": 48,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Colombia",
-        "code": "COL"
-      },
-      "opposingTeam": {
-        "name": "FIFA Play-Off 1",
-        "code": "F_1"
-      },
-      "venue": {
-        "name": "Guadalajara Stadium",
-        "code": "NN_GDL",
-        "town": "Zapopan",
-        "country": "Mexico"
-      },
+      "hostTeam": "Colombia",
+      "opposingTeam": "FIFA Play-Off 1",
+      "venue": "Guadalajara Stadium",
+      "city": "Zapopan",
+      "country": "Mexico",
       "matchDate": "June 23",
       "matchDayTime": "Tuesday, 8pm CT",
-      "countryCode": "MX",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $96,000 MXN / per person",
-          "priceNumber": 96000,
-          "priceUSD": 5588
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $70,840 MXN / per person",
-          "priceNumber": 70840,
-          "priceUSD": 4123
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $61,990 MXN / per person",
-          "priceNumber": 61990,
-          "priceUSD": 3608
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $56,430 MXN / per person",
-          "priceNumber": 56430,
-          "priceUSD": 3285
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $36,770 MXN / per person",
-          "priceNumber": 36770,
-          "priceUSD": 2140
-        }
-      ],
-      "portal": "Mexico",
-      "originalCurrency": "MXN"
+      "startingPrice": 36770,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 2140,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824802,
       "matchNumber": 49,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Scotland",
-        "code": "SCO"
-      },
-      "opposingTeam": {
-        "name": "Brazil",
-        "code": "BRA"
-      },
-      "venue": {
-        "name": "Miami Stadium",
-        "code": "NN_MIA",
-        "town": "Miami Gardens",
-        "country": "United States"
-      },
+      "hostTeam": "Scotland",
+      "opposingTeam": "Brazil",
+      "venue": "Miami Stadium",
+      "city": "Miami Gardens",
+      "country": "United States",
       "matchDate": "June 24",
       "matchDayTime": "Wednesday, 6pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,100 USD / per person",
-          "priceNumber": 6100,
-          "priceUSD": 6100
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,200 USD / per person",
-          "priceNumber": 4200,
-          "priceUSD": 4200
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,800 USD / per person",
-          "priceNumber": 3800,
-          "priceUSD": 3800
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,400 USD / per person",
-          "priceNumber": 3400,
-          "priceUSD": 3400
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3000,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 175,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824803,
       "matchNumber": 50,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Morocco",
-        "code": "MAR"
-      },
-      "opposingTeam": {
-        "name": "Haiti",
-        "code": "HAI"
-      },
-      "venue": {
-        "name": "Atlanta Stadium",
-        "code": "NN_ATL",
-        "town": "Atlanta",
-        "country": "United States"
-      },
+      "hostTeam": "Morocco",
+      "opposingTeam": "Haiti",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "country": "United States",
       "matchDate": "June 24",
       "matchDayTime": "Wednesday, 6pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,350 USD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 3350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,850 USD / per person",
-          "priceNumber": 2850,
-          "priceUSD": 2850
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,275 USD / per person",
-          "priceNumber": 2275,
-          "priceUSD": 2275
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,050 USD / per person",
-          "priceNumber": 2050,
-          "priceUSD": 2050
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2050,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 119,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836208,
       "matchNumber": 51,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Switzerland",
-        "code": "SUI"
-      },
-      "opposingTeam": {
-        "name": "Canada",
-        "code": "CAN"
-      },
-      "venue": {
-        "name": "BC Place Vancouver",
-        "code": "NN_VAN",
-        "town": "Vancouver",
-        "country": "Canada"
-      },
+      "hostTeam": "Switzerland",
+      "opposingTeam": "Canada",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "country": "Canada",
       "matchDate": "June 24",
       "matchDayTime": "Wednesday, 12pm PT",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $9,075 CAD / per person",
-          "priceNumber": 9075,
-          "priceUSD": 6624
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $6,275 CAD / per person",
-          "priceNumber": 6275,
-          "priceUSD": 4580
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $5,225 CAD / per person",
-          "priceNumber": 5225,
-          "priceUSD": 3814
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,700 CAD / per person",
-          "priceNumber": 3700,
-          "priceUSD": 2701
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $3,425 CAD / per person",
-          "priceNumber": 3425,
-          "priceUSD": 2500
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 3425,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 199,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824804,
       "matchNumber": 52,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "European Play-Off A",
-        "code": "E_A"
-      },
-      "opposingTeam": {
-        "name": "Qatar",
-        "code": "QAT"
-      },
-      "venue": {
-        "name": "Seattle Stadium",
-        "code": "NN_SEA",
-        "town": "Seattle",
-        "country": "United States"
-      },
+      "hostTeam": "European Play-Off A",
+      "opposingTeam": "Qatar",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "country": "United States",
       "matchDate": "June 24",
       "matchDayTime": "Wednesday, 12pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,550 USD / per person",
-          "priceNumber": 4550,
-          "priceUSD": 4550
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,850 USD / per person",
-          "priceNumber": 3850,
-          "priceUSD": 3850
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,875 USD / per person",
-          "priceNumber": 2875,
-          "priceUSD": 2875
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,000 USD / per person",
-          "priceNumber": 2000,
-          "priceUSD": 2000
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,575 USD / per person",
-          "priceNumber": 1575,
-          "priceUSD": 1575
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1575,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 92,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836818,
       "matchNumber": 54,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "South Africa",
-        "code": "RSA"
-      },
-      "opposingTeam": {
-        "name": "Korea Republic",
-        "code": "KOR"
-      },
-      "venue": {
-        "name": "Monterrey Stadium",
-        "code": "NN_MTY",
-        "town": "Guadalupe",
-        "country": "Mexico"
-      },
+      "hostTeam": "South Africa",
+      "opposingTeam": "Korea Republic",
+      "venue": "Monterrey Stadium",
+      "city": "Guadalupe",
+      "country": "Mexico",
       "matchDate": "June 24",
       "matchDayTime": "Wednesday, 7pm CT",
-      "countryCode": "MX",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $87,705 MXN / per person",
-          "priceNumber": 87705,
-          "priceUSD": 5105
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $73,450 MXN / per person",
-          "priceNumber": 73450,
-          "priceUSD": 4275
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $61,350 MXN / per person",
-          "priceNumber": 61350,
-          "priceUSD": 3571
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $55,350 MXN / per person",
-          "priceNumber": 55350,
-          "priceUSD": 3222
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $34,700 MXN / per person",
-          "priceNumber": 34700,
-          "priceUSD": 2020
-        }
-      ],
-      "portal": "Mexico",
-      "originalCurrency": "MXN"
+      "startingPrice": 55350,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 3222,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824805,
       "matchNumber": 55,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Curaçao",
-        "code": "CUW"
-      },
-      "opposingTeam": {
-        "name": "Côte d'Ivoire",
-        "code": "CIV"
-      },
-      "venue": {
-        "name": "Philadelphia Stadium",
-        "code": "NN_PHL",
-        "town": "Philadelphia",
-        "country": "United States"
-      },
+      "hostTeam": "Curaçao",
+      "opposingTeam": "Côte d'Ivoire",
+      "venue": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "country": "United States",
       "matchDate": "June 25",
       "matchDayTime": "Thursday, 4pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,700 USD / per person",
-          "priceNumber": 2700,
-          "priceUSD": 2700
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,250 USD / per person",
-          "priceNumber": 2250,
-          "priceUSD": 2250
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $1,950 USD / per person",
-          "priceNumber": 1950,
-          "priceUSD": 1950
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2150,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 125,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824806,
       "matchNumber": 56,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Ecuador",
-        "code": "ECU"
-      },
-      "opposingTeam": {
-        "name": "Germany",
-        "code": "GER"
-      },
-      "venue": {
-        "name": "New York New Jersey Stadium",
-        "code": "NN_NYNJ",
-        "town": "East Rutherford",
-        "country": "United States"
-      },
+      "hostTeam": "Ecuador",
+      "opposingTeam": "Germany",
+      "venue": "New York New Jersey Stadium",
+      "city": "East Rutherford",
+      "country": "United States",
       "matchDate": "June 25",
       "matchDayTime": "Thursday, 4pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,400 USD / per person",
-          "priceNumber": 4400,
-          "priceUSD": 4400
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,400 USD / per person",
-          "priceNumber": 3400,
-          "priceUSD": 3400
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,450 USD / per person",
-          "priceNumber": 2450,
-          "priceUSD": 2450
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2450,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 143,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824807,
       "matchNumber": 57,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Japan",
-        "code": "JPN"
-      },
-      "opposingTeam": {
-        "name": "European Play-Off B",
-        "code": "E_B"
-      },
-      "venue": {
-        "name": "Dallas Stadium",
-        "code": "NN_DAL",
-        "town": "Arlington",
-        "country": "United States"
-      },
+      "hostTeam": "Japan",
+      "opposingTeam": "European Play-Off B",
+      "venue": "Dallas Stadium",
+      "city": "Arlington",
+      "country": "United States",
       "matchDate": "June 25",
       "matchDayTime": "Thursday, 6pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,450 USD / per person",
-          "priceNumber": 3450,
-          "priceUSD": 3450
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,350 USD / per person",
-          "priceNumber": 2350,
-          "priceUSD": 2350
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,200 USD / per person",
-          "priceNumber": 2200,
-          "priceUSD": 2200
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2200,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 128,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824808,
       "matchNumber": 58,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Tunisia",
-        "code": "TUN"
-      },
-      "opposingTeam": {
-        "name": "Netherlands",
-        "code": "NED"
-      },
-      "venue": {
-        "name": "Kansas City Stadium",
-        "code": "NN_KC",
-        "town": "Kansas City",
-        "country": "United States"
-      },
+      "hostTeam": "Tunisia",
+      "opposingTeam": "Netherlands",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "country": "United States",
       "matchDate": "June 25",
       "matchDayTime": "Thursday, 6pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,150 USD / per person",
-          "priceNumber": 3150,
-          "priceUSD": 3150
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,700 USD / per person",
-          "priceNumber": 2700,
-          "priceUSD": 2700
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,310 USD / per person",
-          "priceNumber": 2310,
-          "priceUSD": 2310
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,100 USD / per person",
-          "priceNumber": 2100,
-          "priceUSD": 2100
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,400 USD / per person",
-          "priceNumber": 1400,
-          "priceUSD": 1400
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1400,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 81,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824809,
       "matchNumber": 59,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "European Play-Off C",
-        "code": "E_C"
-      },
-      "opposingTeam": {
-        "name": "USA",
-        "code": "USA"
-      },
-      "venue": {
-        "name": "Los Angeles Stadium",
-        "code": "NN_LA",
-        "town": "Inglewood",
-        "country": "United States"
-      },
+      "hostTeam": "European Play-Off C",
+      "opposingTeam": "USA",
+      "venue": "Los Angeles Stadium",
+      "city": "Inglewood",
+      "country": "United States",
       "matchDate": "June 25",
       "matchDayTime": "Thursday, 7pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,550 USD / per person",
-          "priceNumber": 4550,
-          "priceUSD": 4550
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,300 USD / per person",
-          "priceNumber": 4300,
-          "priceUSD": 4300
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,700 USD / per person",
-          "priceNumber": 3700,
-          "priceUSD": 3700
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,700 USD / per person",
-          "priceNumber": 2700,
-          "priceUSD": 2700
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2700,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 157,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824810,
       "matchNumber": 60,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Paraguay",
-        "code": "PAR"
-      },
-      "opposingTeam": {
-        "name": "Australia",
-        "code": "AUS"
-      },
-      "venue": {
-        "name": "San Francisco Bay Area Stadium",
-        "code": "NN_SFBA",
-        "town": "Santa Clara",
-        "country": "United States"
-      },
+      "hostTeam": "Paraguay",
+      "opposingTeam": "Australia",
+      "venue": "San Francisco Bay Area Stadium",
+      "city": "Santa Clara",
+      "country": "United States",
       "matchDate": "June 25",
       "matchDayTime": "Thursday, 7pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,250 USD / per person",
-          "priceNumber": 2250,
-          "priceUSD": 2250
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,000 USD / per person",
-          "priceNumber": 2000,
-          "priceUSD": 2000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2000,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 116,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824811,
       "matchNumber": 61,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Norway",
-        "code": "NOR"
-      },
-      "opposingTeam": {
-        "name": "France",
-        "code": "FRA"
-      },
-      "venue": {
-        "name": "Boston Stadium",
-        "code": "NN_BOS",
-        "town": "Foxborough",
-        "country": "United States"
-      },
+      "hostTeam": "Norway",
+      "opposingTeam": "France",
+      "venue": "Boston Stadium",
+      "city": "Foxborough",
+      "country": "United States",
       "matchDate": "June 26",
       "matchDayTime": "Friday, 3pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,900 USD / per person",
-          "priceNumber": 3900,
-          "priceUSD": 3900
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,300 USD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 3300
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,700 USD / per person",
-          "priceNumber": 2700,
-          "priceUSD": 2700
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2700,
+      "startingLounge": "Trophy Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 157,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836209,
       "matchNumber": 62,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Senegal",
-        "code": "SEN"
-      },
-      "opposingTeam": {
-        "name": "FIFA Play-Off 2",
-        "code": "F_2"
-      },
-      "venue": {
-        "name": "Toronto Stadium",
-        "code": "NN_TOR",
-        "town": "Toronto",
-        "country": "Canada"
-      },
+      "hostTeam": "Senegal",
+      "opposingTeam": "FIFA Play-Off 2",
+      "venue": "Toronto Stadium",
+      "city": "Toronto",
+      "country": "Canada",
       "matchDate": "June 26",
       "matchDayTime": "Friday, 3pm ET",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,600 CAD / per person",
-          "priceNumber": 5600,
-          "priceUSD": 4088
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $4,800 CAD / per person",
-          "priceNumber": 4800,
-          "priceUSD": 3504
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,950 CAD / per person",
-          "priceNumber": 3950,
-          "priceUSD": 2883
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,450 CAD / per person",
-          "priceNumber": 3450,
-          "priceUSD": 2518
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,600 CAD / per person",
-          "priceNumber": 2600,
-          "priceUSD": 1898
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 3450,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 201,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824812,
       "matchNumber": 63,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Egypt",
-        "code": "EGY"
-      },
-      "opposingTeam": {
-        "name": "IR Iran",
-        "code": "IRN"
-      },
-      "venue": {
-        "name": "Seattle Stadium",
-        "code": "NN_SEA",
-        "town": "Seattle",
-        "country": "United States"
-      },
+      "hostTeam": "Egypt",
+      "opposingTeam": "IR Iran",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "country": "United States",
       "matchDate": "June 26",
       "matchDayTime": "Friday, 8pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,300 USD / per person",
-          "priceNumber": 4300,
-          "priceUSD": 4300
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,600 USD / per person",
-          "priceNumber": 3600,
-          "priceUSD": 3600
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,100 USD / per person",
-          "priceNumber": 2100,
-          "priceUSD": 2100
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,525 USD / per person",
-          "priceNumber": 1525,
-          "priceUSD": 1525
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1525,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 89,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836210,
       "matchNumber": 64,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "New Zealand",
-        "code": "NZL"
-      },
-      "opposingTeam": {
-        "name": "Belgium",
-        "code": "BEL"
-      },
-      "venue": {
-        "name": "BC Place Vancouver",
-        "code": "NN_VAN",
-        "town": "Vancouver",
-        "country": "Canada"
-      },
+      "hostTeam": "New Zealand",
+      "opposingTeam": "Belgium",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "country": "Canada",
       "matchDate": "June 26",
       "matchDayTime": "Friday, 8pm PT",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,800 CAD / per person",
-          "priceNumber": 6800,
-          "priceUSD": 4964
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $4,850 CAD / per person",
-          "priceNumber": 4850,
-          "priceUSD": 3540
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,325 CAD / per person",
-          "priceNumber": 4325,
-          "priceUSD": 3157
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,575 CAD / per person",
-          "priceNumber": 3575,
-          "priceUSD": 2609
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,575 CAD / per person",
-          "priceNumber": 2575,
-          "priceUSD": 1880
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 2575,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 150,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824813,
       "matchNumber": 65,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Cabo Verde",
-        "code": "CPV"
-      },
-      "opposingTeam": {
-        "name": "Saudi Arabia",
-        "code": "KSA"
-      },
-      "venue": {
-        "name": "Houston Stadium",
-        "code": "NN_HOU",
-        "town": "Houston",
-        "country": "United States"
-      },
+      "hostTeam": "Cabo Verde",
+      "opposingTeam": "Saudi Arabia",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "country": "United States",
       "matchDate": "June 26",
       "matchDayTime": "Friday, 7pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,300 USD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 3300
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,430 USD / per person",
-          "priceNumber": 2430,
-          "priceUSD": 2430
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,375 USD / per person",
-          "priceNumber": 2375,
-          "priceUSD": 2375
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2375,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 138,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836819,
       "matchNumber": 66,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Uruguay",
-        "code": "URU"
-      },
-      "opposingTeam": {
-        "name": "Spain",
-        "code": "ESP"
-      },
-      "venue": {
-        "name": "Guadalajara Stadium",
-        "code": "NN_GDL",
-        "town": "Zapopan",
-        "country": "Mexico"
-      },
+      "hostTeam": "Uruguay",
+      "opposingTeam": "Spain",
+      "venue": "Guadalajara Stadium",
+      "city": "Zapopan",
+      "country": "Mexico",
       "matchDate": "June 26",
       "matchDayTime": "Friday, 6pm CT",
-      "countryCode": "MX",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $139,000 MXN / per person",
-          "priceNumber": 139000,
-          "priceUSD": 8091
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $127,000 MXN / per person",
-          "priceNumber": 127000,
-          "priceUSD": 7392
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $115,000 MXN / per person",
-          "priceNumber": 115000,
-          "priceUSD": 6694
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $70,840 MXN / per person",
-          "priceNumber": 70840,
-          "priceUSD": 4123
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $54,060 MXN / per person",
-          "priceNumber": 54060,
-          "priceUSD": 3147
-        }
-      ],
-      "portal": "Mexico",
-      "originalCurrency": "MXN"
+      "startingPrice": 54060,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 3147,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824814,
       "matchNumber": 67,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Panama",
-        "code": "PAN"
-      },
-      "opposingTeam": {
-        "name": "England",
-        "code": "ENG"
-      },
-      "venue": {
-        "name": "New York New Jersey Stadium",
-        "code": "NN_NYNJ",
-        "town": "East Rutherford",
-        "country": "United States"
-      },
+      "hostTeam": "Panama",
+      "opposingTeam": "England",
+      "venue": "New York New Jersey Stadium",
+      "city": "East Rutherford",
+      "country": "United States",
       "matchDate": "June 27",
       "matchDayTime": "Saturday, 5pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,500 USD / per person",
-          "priceNumber": 4500,
-          "priceUSD": 4500
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,500 USD / per person",
-          "priceNumber": 3500,
-          "priceUSD": 3500
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,300 USD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 3300
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,400 USD / per person",
-          "priceNumber": 2400,
-          "priceUSD": 2400
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2400,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 140,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824815,
       "matchNumber": 68,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Croatia",
-        "code": "CRO"
-      },
-      "opposingTeam": {
-        "name": "Ghana",
-        "code": "GHA"
-      },
-      "venue": {
-        "name": "Philadelphia Stadium",
-        "code": "NN_PHL",
-        "town": "Philadelphia",
-        "country": "United States"
-      },
+      "hostTeam": "Croatia",
+      "opposingTeam": "Ghana",
+      "venue": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "country": "United States",
       "matchDate": "June 27",
       "matchDayTime": "Saturday, 5pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,300 USD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 3300
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,375 USD / per person",
-          "priceNumber": 2375,
-          "priceUSD": 2375
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,000 USD / per person",
-          "priceNumber": 2000,
-          "priceUSD": 2000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2200,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 128,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824817,
       "matchNumber": 69,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Algeria",
-        "code": "ALG"
-      },
-      "opposingTeam": {
-        "name": "Austria",
-        "code": "AUT"
-      },
-      "venue": {
-        "name": "Kansas City Stadium",
-        "code": "NN_KC",
-        "town": "Kansas City",
-        "country": "United States"
-      },
+      "hostTeam": "Algeria",
+      "opposingTeam": "Austria",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "country": "United States",
       "matchDate": "June 27",
       "matchDayTime": "Saturday, 9pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,350 USD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 3350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,850 USD / per person",
-          "priceNumber": 2850,
-          "priceUSD": 2850
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,400 USD / per person",
-          "priceNumber": 2400,
-          "priceUSD": 2400
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,050 USD / per person",
-          "priceNumber": 2050,
-          "priceUSD": 2050
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,475 USD / per person",
-          "priceNumber": 1475,
-          "priceUSD": 1475
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1475,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 86,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824818,
       "matchNumber": 70,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Jordan",
-        "code": "JOR"
-      },
-      "opposingTeam": {
-        "name": "Argentina",
-        "code": "ARG"
-      },
-      "venue": {
-        "name": "Dallas Stadium",
-        "code": "NN_DAL",
-        "town": "Arlington",
-        "country": "United States"
-      },
+      "hostTeam": "Jordan",
+      "opposingTeam": "Argentina",
+      "venue": "Dallas Stadium",
+      "city": "Arlington",
+      "country": "United States",
       "matchDate": "June 27",
       "matchDayTime": "Saturday, 9pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,795 USD / per person",
-          "priceNumber": 3795,
-          "priceUSD": 3795
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,595 USD / per person",
-          "priceNumber": 3595,
-          "priceUSD": 3595
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,490 USD / per person",
-          "priceNumber": 2490,
-          "priceUSD": 2490
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,430 USD / per person",
-          "priceNumber": 2430,
-          "priceUSD": 2430
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2430,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 141,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824819,
       "matchNumber": 71,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "Colombia",
-        "code": "COL"
-      },
-      "opposingTeam": {
-        "name": "Portugal",
-        "code": "POR"
-      },
-      "venue": {
-        "name": "Miami Stadium",
-        "code": "NN_MIA",
-        "town": "Miami Gardens",
-        "country": "United States"
-      },
+      "hostTeam": "Colombia",
+      "opposingTeam": "Portugal",
+      "venue": "Miami Stadium",
+      "city": "Miami Gardens",
+      "country": "United States",
       "matchDate": "June 27",
       "matchDayTime": "Saturday, 7pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $7,200 USD / per person",
-          "priceNumber": 7200,
-          "priceUSD": 7200
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $5,500 USD / per person",
-          "priceNumber": 5500,
-          "priceUSD": 5500
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $5,100 USD / per person",
-          "priceNumber": 5100,
-          "priceUSD": 5100
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $4,700 USD / per person",
-          "priceNumber": 4700,
-          "priceUSD": 4700
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $4,200 USD / per person",
-          "priceNumber": 4200,
-          "priceUSD": 4200
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 4600,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 268,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824820,
       "matchNumber": 72,
       "stage": "GROUP STAGE MATCHES",
-      "hostTeam": {
-        "name": "FIFA Play-Off 1",
-        "code": "F_1"
-      },
-      "opposingTeam": {
-        "name": "Uzbekistan",
-        "code": "UZB"
-      },
-      "venue": {
-        "name": "Atlanta Stadium",
-        "code": "NN_ATL",
-        "town": "Atlanta",
-        "country": "United States"
-      },
+      "hostTeam": "FIFA Play-Off 1",
+      "opposingTeam": "Uzbekistan",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "country": "United States",
       "matchDate": "June 27",
       "matchDayTime": "Saturday, 7pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,500 USD / per person",
-          "priceNumber": 3500,
-          "priceUSD": 3500
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $2,950 USD / per person",
-          "priceNumber": 2950,
-          "priceUSD": 2950
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,400 USD / per person",
-          "priceNumber": 2400,
-          "priceUSD": 2400
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,150 USD / per person",
-          "priceNumber": 2150,
-          "priceUSD": 2150
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2150,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 125,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824821,
       "matchNumber": 73,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "2A",
-        "code": "2A"
-      },
-      "opposingTeam": {
-        "name": "2B",
-        "code": "2B"
-      },
-      "venue": {
-        "name": "Los Angeles Stadium",
-        "code": "NN_LA",
-        "town": "Inglewood",
-        "country": "United States"
-      },
+      "hostTeam": "2A",
+      "opposingTeam": "2B",
+      "venue": "Los Angeles Stadium",
+      "city": "Inglewood",
+      "country": "United States",
       "matchDate": "June 28",
       "matchDayTime": "Sunday, 12pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,300 USD / per person",
-          "priceNumber": 4300,
-          "priceUSD": 4300
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,700 USD / per person",
-          "priceNumber": 3700,
-          "priceUSD": 3700
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,325 USD / per person",
-          "priceNumber": 3325,
-          "priceUSD": 3325
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,800 USD / per person",
-          "priceNumber": 2800,
-          "priceUSD": 2800
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,050 USD / per person",
-          "priceNumber": 2050,
-          "priceUSD": 2050
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2050,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 119,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824822,
       "matchNumber": 74,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1E",
-        "code": "1E"
-      },
-      "opposingTeam": {
-        "name": "3ABCDF",
-        "code": "3ABCDF"
-      },
-      "venue": {
-        "name": "Boston Stadium",
-        "code": "NN_BOS",
-        "town": "Foxborough",
-        "country": "United States"
-      },
+      "hostTeam": "1E",
+      "opposingTeam": "3ABCDF",
+      "venue": "Boston Stadium",
+      "city": "Foxborough",
+      "country": "United States",
       "matchDate": "June 29",
       "matchDayTime": "Monday, 4pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,900 USD / per person",
-          "priceNumber": 3900,
-          "priceUSD": 3900
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,500 USD / per person",
-          "priceNumber": 3500,
-          "priceUSD": 3500
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,275 USD / per person",
-          "priceNumber": 3275,
-          "priceUSD": 3275
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2500,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 146,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836820,
       "matchNumber": 75,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1F",
-        "code": "1F"
-      },
-      "opposingTeam": {
-        "name": "2C",
-        "code": "2C"
-      },
-      "venue": {
-        "name": "Monterrey Stadium",
-        "code": "NN_MTY",
-        "town": "Guadalupe",
-        "country": "Mexico"
-      },
+      "hostTeam": "1F",
+      "opposingTeam": "2C",
+      "venue": "Monterrey Stadium",
+      "city": "Guadalupe",
+      "country": "Mexico",
       "matchDate": "June 29",
       "matchDayTime": "Monday, 7pm CT",
-      "countryCode": "MX",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $100,100 MXN / per person",
-          "priceNumber": 100100,
-          "priceUSD": 5827
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $94,550 MXN / per person",
-          "priceNumber": 94550,
-          "priceUSD": 5503
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $81,500 MXN / per person",
-          "priceNumber": 81500,
-          "priceUSD": 4744
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $77,450 MXN / per person",
-          "priceNumber": 77450,
-          "priceUSD": 4508
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $55,350 MXN / per person",
-          "priceNumber": 55350,
-          "priceUSD": 3222
-        }
-      ],
-      "portal": "Mexico",
-      "originalCurrency": "MXN"
+      "startingPrice": 99600,
+      "startingLounge": "VIP",
+      "originalCurrency": "MXN",
+      "priceUSD": 5797,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824823,
       "matchNumber": 76,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1C",
-        "code": "1C"
-      },
-      "opposingTeam": {
-        "name": "2F",
-        "code": "2F"
-      },
-      "venue": {
-        "name": "Houston Stadium",
-        "code": "NN_HOU",
-        "town": "Houston",
-        "country": "United States"
-      },
+      "hostTeam": "1C",
+      "opposingTeam": "2F",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "country": "United States",
       "matchDate": "June 29",
       "matchDayTime": "Monday, 12pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,000 USD / per person",
-          "priceNumber": 4000,
-          "priceUSD": 4000
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,375 USD / per person",
-          "priceNumber": 3375,
-          "priceUSD": 3375
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $2,975 USD / per person",
-          "priceNumber": 2975,
-          "priceUSD": 2975
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,900 USD / per person",
-          "priceNumber": 2900,
-          "priceUSD": 2900
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2900,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 169,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824824,
       "matchNumber": 77,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1I",
-        "code": "1I"
-      },
-      "opposingTeam": {
-        "name": "3CDFGH",
-        "code": "3CDFGH"
-      },
-      "venue": {
-        "name": "New York New Jersey Stadium",
-        "code": "NN_NYNJ",
-        "town": "East Rutherford",
-        "country": "United States"
-      },
+      "hostTeam": "1I",
+      "opposingTeam": "3CDFGH",
+      "venue": "New York New Jersey Stadium",
+      "city": "East Rutherford",
+      "country": "United States",
       "matchDate": "June 30",
       "matchDayTime": "Tuesday, 5pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,700 USD / per person",
-          "priceNumber": 4700,
-          "priceUSD": 4700
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,800 USD / per person",
-          "priceNumber": 3800,
-          "priceUSD": 3800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,500 USD / per person",
-          "priceNumber": 3500,
-          "priceUSD": 3500
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,300 USD / per person",
-          "priceNumber": 3300,
-          "priceUSD": 3300
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,200 USD / per person",
-          "priceNumber": 2200,
-          "priceUSD": 2200
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2200,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 128,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824825,
       "matchNumber": 78,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "2E",
-        "code": "2E"
-      },
-      "opposingTeam": {
-        "name": "2I",
-        "code": "2I"
-      },
-      "venue": {
-        "name": "Dallas Stadium",
-        "code": "NN_DAL",
-        "town": "Arlington",
-        "country": "United States"
-      },
+      "hostTeam": "2E",
+      "opposingTeam": "2I",
+      "venue": "Dallas Stadium",
+      "city": "Arlington",
+      "country": "United States",
       "matchDate": "June 30",
       "matchDayTime": "Tuesday, 12pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,250 USD / per person",
-          "priceNumber": 4250,
-          "priceUSD": 4250
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,700 USD / per person",
-          "priceNumber": 3700,
-          "priceUSD": 3700
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,150 USD / per person",
-          "priceNumber": 3150,
-          "priceUSD": 3150
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3000,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 175,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836821,
       "matchNumber": 79,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1A",
-        "code": "1A"
-      },
-      "opposingTeam": {
-        "name": "3CEFHI",
-        "code": "3CEFHI"
-      },
-      "venue": {
-        "name": "Mexico City Stadium",
-        "code": "NN_CDMX",
-        "town": "Ciudad de México",
-        "country": "Mexico"
-      },
+      "hostTeam": "1A",
+      "opposingTeam": "3CEFHI",
+      "venue": "Mexico City Stadium",
+      "city": "Ciudad de México",
+      "country": "Mexico",
       "matchDate": "June 30",
       "matchDayTime": "Tuesday, 7pm CT",
-      "countryCode": "MX",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $160,000 MXN / per person",
-          "priceNumber": 160000,
-          "priceUSD": 9313
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $129,800 MXN / per person",
-          "priceNumber": 129800,
-          "priceUSD": 7555
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $124,500 MXN / per person",
-          "priceNumber": 124500,
-          "priceUSD": 7247
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $78,500 MXN / per person",
-          "priceNumber": 78500,
-          "priceUSD": 4569
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $62,400 MXN / per person",
-          "priceNumber": 62400,
-          "priceUSD": 3632
-        }
-      ],
-      "portal": "Mexico",
-      "originalCurrency": "MXN"
+      "startingPrice": 78500,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 4569,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824826,
       "matchNumber": 80,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1L",
-        "code": "1L"
-      },
-      "opposingTeam": {
-        "name": "3EHIJK",
-        "code": "3EHIJK"
-      },
-      "venue": {
-        "name": "Atlanta Stadium",
-        "code": "NN_ATL",
-        "town": "Atlanta",
-        "country": "United States"
-      },
+      "hostTeam": "1L",
+      "opposingTeam": "3EHIJK",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "country": "United States",
       "matchDate": "July 1",
       "matchDayTime": "Wednesday, 12pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,550 USD / per person",
-          "priceNumber": 4550,
-          "priceUSD": 4550
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,350 USD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 3350
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2500,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 146,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824827,
       "matchNumber": 81,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1D",
-        "code": "1D"
-      },
-      "opposingTeam": {
-        "name": "3BEFIJ",
-        "code": "3BEFIJ"
-      },
-      "venue": {
-        "name": "San Francisco Bay Area Stadium",
-        "code": "NN_SFBA",
-        "town": "Santa Clara",
-        "country": "United States"
-      },
+      "hostTeam": "1D",
+      "opposingTeam": "3BEFIJ",
+      "venue": "San Francisco Bay Area Stadium",
+      "city": "Santa Clara",
+      "country": "United States",
       "matchDate": "July 1",
       "matchDayTime": "Wednesday, 5pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,050 USD / per person",
-          "priceNumber": 4050,
-          "priceUSD": 4050
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,350 USD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 3350
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,025 USD / per person",
-          "priceNumber": 3025,
-          "priceUSD": 3025
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,450 USD / per person",
-          "priceNumber": 2450,
-          "priceUSD": 2450
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3850,
+      "startingLounge": "VIP",
+      "originalCurrency": "MXN",
+      "priceUSD": 224,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824842,
       "matchNumber": 82,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1G",
-        "code": "1G"
-      },
-      "opposingTeam": {
-        "name": "3AEHIJ",
-        "code": "3AEHIJ"
-      },
-      "venue": {
-        "name": "Seattle Stadium",
-        "code": "NN_SEA",
-        "town": "Seattle",
-        "country": "United States"
-      },
+      "hostTeam": "1G",
+      "opposingTeam": "3AEHIJ",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "country": "United States",
       "matchDate": "July 1",
       "matchDayTime": "Wednesday, 1pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,700 USD / per person",
-          "priceNumber": 4700,
-          "priceUSD": 4700
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,850 USD / per person",
-          "priceNumber": 3850,
-          "priceUSD": 3850
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,200 USD / per person",
-          "priceNumber": 3200,
-          "priceUSD": 3200
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,900 USD / per person",
-          "priceNumber": 2900,
-          "priceUSD": 2900
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,125 USD / per person",
-          "priceNumber": 2125,
-          "priceUSD": 2125
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2125,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 124,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836216,
-      "matchNumber": 83,
-      "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "2K",
-        "code": "2K"
-      },
-      "opposingTeam": {
-        "name": "2L",
-        "code": "2L"
-      },
-      "venue": {
-        "name": "Toronto Stadium",
-        "code": "NN_TOR",
-        "town": "Toronto",
-        "country": "Canada"
-      },
-      "matchDate": "July 2",
-      "matchDayTime": "Thursday, 7pm ET",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,350 CAD / per person",
-          "priceNumber": 6350,
-          "priceUSD": 4635
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $5,350 CAD / per person",
-          "priceNumber": 5350,
-          "priceUSD": 3905
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,850 CAD / per person",
-          "priceNumber": 4850,
-          "priceUSD": 3540
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $4,300 CAD / per person",
-          "priceNumber": 4300,
-          "priceUSD": 3139
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $3,350 CAD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 2445
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
-    },
-    {
-      "performanceId": 10229203824843,
       "matchNumber": 84,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1H",
-        "code": "1H"
-      },
-      "opposingTeam": {
-        "name": "2J",
-        "code": "2J"
-      },
-      "venue": {
-        "name": "Los Angeles Stadium",
-        "code": "NN_LA",
-        "town": "Inglewood",
-        "country": "United States"
-      },
+      "hostTeam": "1H",
+      "opposingTeam": "2J",
+      "venue": "Los Angeles Stadium",
+      "city": "Inglewood",
+      "country": "United States",
       "matchDate": "July 2",
       "matchDayTime": "Thursday, 12pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,250 USD / per person",
-          "priceNumber": 4250,
-          "priceUSD": 4250
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,750 USD / per person",
-          "priceNumber": 3750,
-          "priceUSD": 3750
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,150 USD / per person",
-          "priceNumber": 3150,
-          "priceUSD": 3150
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,750 USD / per person",
-          "priceNumber": 2750,
-          "priceUSD": 2750
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2500,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 146,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836211,
       "matchNumber": 85,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1B",
-        "code": "1B"
-      },
-      "opposingTeam": {
-        "name": "3EFGIJ",
-        "code": "3EFGIJ"
-      },
-      "venue": {
-        "name": "BC Place Vancouver",
-        "code": "NN_VAN",
-        "town": "Vancouver",
-        "country": "Canada"
-      },
+      "hostTeam": "1B",
+      "opposingTeam": "3EFGIJ",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "country": "Canada",
       "matchDate": "July 2",
       "matchDayTime": "Thursday, 8pm PT",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,850 CAD / per person",
-          "priceNumber": 6850,
-          "priceUSD": 5000
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $5,292 CAD / per person",
-          "priceNumber": 5292,
-          "priceUSD": 3863
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,840 CAD / per person",
-          "priceNumber": 4840,
-          "priceUSD": 3533
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $4,350 CAD / per person",
-          "priceNumber": 4350,
-          "priceUSD": 3175
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $3,215 CAD / per person",
-          "priceNumber": 3215,
-          "priceUSD": 2347
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 3480,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 203,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824844,
       "matchNumber": 86,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1J",
-        "code": "1J"
-      },
-      "opposingTeam": {
-        "name": "2H",
-        "code": "2H"
-      },
-      "venue": {
-        "name": "Miami Stadium",
-        "code": "NN_MIA",
-        "town": "Miami Gardens",
-        "country": "United States"
-      },
+      "hostTeam": "1J",
+      "opposingTeam": "2H",
+      "venue": "Miami Stadium",
+      "city": "Miami Gardens",
+      "country": "United States",
       "matchDate": "July 3",
       "matchDayTime": "Friday, 6pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,870 USD / per person",
-          "priceNumber": 5870,
-          "priceUSD": 5870
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,300 USD / per person",
-          "priceNumber": 4300,
-          "priceUSD": 4300
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,020 USD / per person",
-          "priceNumber": 4020,
-          "priceUSD": 4020
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,730 USD / per person",
-          "priceNumber": 3730,
-          "priceUSD": 3730
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $3,170 USD / per person",
-          "priceNumber": 3170,
-          "priceUSD": 3170
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3170,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 185,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824845,
       "matchNumber": 87,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "1K",
-        "code": "1K"
-      },
-      "opposingTeam": {
-        "name": "3DEIJL",
-        "code": "3DEIJL"
-      },
-      "venue": {
-        "name": "Kansas City Stadium",
-        "code": "NN_KC",
-        "town": "Kansas City",
-        "country": "United States"
-      },
+      "hostTeam": "1K",
+      "opposingTeam": "3DEIJL",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "country": "United States",
       "matchDate": "July 3",
       "matchDayTime": "Friday, 8pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $3,950 USD / per person",
-          "priceNumber": 3950,
-          "priceUSD": 3950
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,500 USD / per person",
-          "priceNumber": 3500,
-          "priceUSD": 3500
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,025 USD / per person",
-          "priceNumber": 3025,
-          "priceUSD": 3025
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,500 USD / per person",
-          "priceNumber": 2500,
-          "priceUSD": 2500
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,050 USD / per person",
-          "priceNumber": 2050,
-          "priceUSD": 2050
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2050,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 119,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824846,
       "matchNumber": 88,
       "stage": "ROUND OF 32",
-      "hostTeam": {
-        "name": "2D",
-        "code": "2D"
-      },
-      "opposingTeam": {
-        "name": "2G",
-        "code": "2G"
-      },
-      "venue": {
-        "name": "Dallas Stadium",
-        "code": "NN_DAL",
-        "town": "Arlington",
-        "country": "United States"
-      },
+      "hostTeam": "2D",
+      "opposingTeam": "2G",
+      "venue": "Dallas Stadium",
+      "city": "Arlington",
+      "country": "United States",
       "matchDate": "July 3",
       "matchDayTime": "Friday, 1pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,250 USD / per person",
-          "priceNumber": 4250,
-          "priceUSD": 4250
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,700 USD / per person",
-          "priceNumber": 3700,
-          "priceUSD": 3700
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,150 USD / per person",
-          "priceNumber": 3150,
-          "priceUSD": 3150
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3000,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 175,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824828,
       "matchNumber": 89,
       "stage": "ROUND OF 16",
-      "hostTeam": {
-        "name": "W74",
-        "code": "W74"
-      },
-      "opposingTeam": {
-        "name": "W77",
-        "code": "W77"
-      },
-      "venue": {
-        "name": "Philadelphia Stadium",
-        "code": "NN_PHL",
-        "town": "Philadelphia",
-        "country": "United States"
-      },
+      "hostTeam": "W74",
+      "opposingTeam": "W77",
+      "venue": "Philadelphia Stadium",
+      "city": "Philadelphia",
+      "country": "United States",
       "matchDate": "July 4",
       "matchDayTime": "Saturday, 5pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,400 USD / per person",
-          "priceNumber": 5400,
-          "priceUSD": 5400
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $5,250 USD / per person",
-          "priceNumber": 5250,
-          "priceUSD": 5250
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,725 USD / per person",
-          "priceNumber": 3725,
-          "priceUSD": 3725
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,950 USD / per person",
-          "priceNumber": 2950,
-          "priceUSD": 2950
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3725,
+      "startingLounge": "Trophy Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 217,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824829,
       "matchNumber": 90,
       "stage": "ROUND OF 16",
-      "hostTeam": {
-        "name": "W73",
-        "code": "W73"
-      },
-      "opposingTeam": {
-        "name": "W75",
-        "code": "W75"
-      },
-      "venue": {
-        "name": "Houston Stadium",
-        "code": "NN_HOU",
-        "town": "Houston",
-        "country": "United States"
-      },
+      "hostTeam": "W73",
+      "opposingTeam": "W75",
+      "venue": "Houston Stadium",
+      "city": "Houston",
+      "country": "United States",
       "matchDate": "July 4",
       "matchDayTime": "Saturday, 12pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,350 USD / per person",
-          "priceNumber": 5350,
-          "priceUSD": 5350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,500 USD / per person",
-          "priceNumber": 4500,
-          "priceUSD": 4500
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,775 USD / per person",
-          "priceNumber": 3775,
-          "priceUSD": 3775
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,650 USD / per person",
-          "priceNumber": 3650,
-          "priceUSD": 3650
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3650,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 212,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824830,
       "matchNumber": 91,
       "stage": "ROUND OF 16",
-      "hostTeam": {
-        "name": "W76",
-        "code": "W76"
-      },
-      "opposingTeam": {
-        "name": "W78",
-        "code": "W78"
-      },
-      "venue": {
-        "name": "New York New Jersey Stadium",
-        "code": "NN_NYNJ",
-        "town": "East Rutherford",
-        "country": "United States"
-      },
+      "hostTeam": "W76",
+      "opposingTeam": "W78",
+      "venue": "New York New Jersey Stadium",
+      "city": "East Rutherford",
+      "country": "United States",
       "matchDate": "July 5",
       "matchDayTime": "Sunday, 4pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,000 USD / per person",
-          "priceNumber": 6000,
-          "priceUSD": 6000
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,800 USD / per person",
-          "priceNumber": 4800,
-          "priceUSD": 4800
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,850 USD / per person",
-          "priceNumber": 3850,
-          "priceUSD": 3850
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,600 USD / per person",
-          "priceNumber": 3600,
-          "priceUSD": 3600
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,600 USD / per person",
-          "priceNumber": 2600,
-          "priceUSD": 2600
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2800,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 163,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836822,
       "matchNumber": 92,
       "stage": "ROUND OF 16",
-      "hostTeam": {
-        "name": "W79",
-        "code": "W79"
-      },
-      "opposingTeam": {
-        "name": "W80",
-        "code": "W80"
-      },
-      "venue": {
-        "name": "Mexico City Stadium",
-        "code": "NN_CDMX",
-        "town": "Ciudad de México",
-        "country": "Mexico"
-      },
+      "hostTeam": "W79",
+      "opposingTeam": "W80",
+      "venue": "Mexico City Stadium",
+      "city": "Ciudad de México",
+      "country": "Mexico",
       "matchDate": "July 5",
       "matchDayTime": "Sunday, 6pm CT",
-      "countryCode": "MX",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $195,000 MXN / per person",
-          "priceNumber": 195000,
-          "priceUSD": 11350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $170,000 MXN / per person",
-          "priceNumber": 170000,
-          "priceUSD": 9895
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $156,000 MXN / per person",
-          "priceNumber": 156000,
-          "priceUSD": 9080
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $98,600 MXN / per person",
-          "priceNumber": 98600,
-          "priceUSD": 5739
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $79,500 MXN / per person",
-          "priceNumber": 79500,
-          "priceUSD": 4627
-        }
-      ],
-      "portal": "Mexico",
-      "originalCurrency": "MXN"
+      "startingPrice": 98600,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 5739,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824831,
       "matchNumber": 93,
       "stage": "ROUND OF 16",
-      "hostTeam": {
-        "name": "W83",
-        "code": "W83"
-      },
-      "opposingTeam": {
-        "name": "W84",
-        "code": "W84"
-      },
-      "venue": {
-        "name": "Dallas Stadium",
-        "code": "NN_DAL",
-        "town": "Arlington",
-        "country": "United States"
-      },
+      "hostTeam": "W83",
+      "opposingTeam": "W84",
+      "venue": "Dallas Stadium",
+      "city": "Arlington",
+      "country": "United States",
       "matchDate": "July 6",
       "matchDayTime": "Monday, 2pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,350 USD / per person",
-          "priceNumber": 5350,
-          "priceUSD": 5350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,825 USD / per person",
-          "priceNumber": 4825,
-          "priceUSD": 4825
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,825 USD / per person",
-          "priceNumber": 3825,
-          "priceUSD": 3825
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,250 USD / per person",
-          "priceNumber": 3250,
-          "priceUSD": 3250
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3250,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 189,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824832,
       "matchNumber": 94,
       "stage": "ROUND OF 16",
-      "hostTeam": {
-        "name": "W81",
-        "code": "W81"
-      },
-      "opposingTeam": {
-        "name": "W82",
-        "code": "W82"
-      },
-      "venue": {
-        "name": "Seattle Stadium",
-        "code": "NN_SEA",
-        "town": "Seattle",
-        "country": "United States"
-      },
+      "hostTeam": "W81",
+      "opposingTeam": "W82",
+      "venue": "Seattle Stadium",
+      "city": "Seattle",
+      "country": "United States",
       "matchDate": "July 6",
       "matchDayTime": "Monday, 5pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,700 USD / per person",
-          "priceNumber": 5700,
-          "priceUSD": 5700
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,950 USD / per person",
-          "priceNumber": 4950,
-          "priceUSD": 4950
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,975 USD / per person",
-          "priceNumber": 3975,
-          "priceUSD": 3975
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,350 USD / per person",
-          "priceNumber": 3350,
-          "priceUSD": 3350
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,350 USD / per person",
-          "priceNumber": 2350,
-          "priceUSD": 2350
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2350,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 137,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824833,
       "matchNumber": 95,
       "stage": "ROUND OF 16",
-      "hostTeam": {
-        "name": "W86",
-        "code": "W86"
-      },
-      "opposingTeam": {
-        "name": "W88",
-        "code": "W88"
-      },
-      "venue": {
-        "name": "Atlanta Stadium",
-        "code": "NN_ATL",
-        "town": "Atlanta",
-        "country": "United States"
-      },
+      "hostTeam": "W86",
+      "opposingTeam": "W88",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "country": "United States",
       "matchDate": "July 7",
       "matchDayTime": "Tuesday, 12pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $5,350 USD / per person",
-          "priceNumber": 5350,
-          "priceUSD": 5350
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $4,250 USD / per person",
-          "priceNumber": 4250,
-          "priceUSD": 4250
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,850 USD / per person",
-          "priceNumber": 3850,
-          "priceUSD": 3850
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,750 USD / per person",
-          "priceNumber": 2750,
-          "priceUSD": 2750
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2750,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 160,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203836212,
       "matchNumber": 96,
       "stage": "ROUND OF 16",
-      "hostTeam": {
-        "name": "W85",
-        "code": "W85"
-      },
-      "opposingTeam": {
-        "name": "W87",
-        "code": "W87"
-      },
-      "venue": {
-        "name": "BC Place Vancouver",
-        "code": "NN_VAN",
-        "town": "Vancouver",
-        "country": "Canada"
-      },
+      "hostTeam": "W85",
+      "opposingTeam": "W87",
+      "venue": "BC Place Vancouver",
+      "city": "Vancouver",
+      "country": "Canada",
       "matchDate": "July 7",
       "matchDayTime": "Tuesday, 1pm PT",
-      "countryCode": "CA",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $8,950 CAD / per person",
-          "priceNumber": 8950,
-          "priceUSD": 6533
-        },
-        {
-          "title": "Lounge 1930 ",
-          "priceString": "Starting at $7,300 CAD / per person",
-          "priceNumber": 7300,
-          "priceUSD": 5328
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $6,500 CAD / per person",
-          "priceNumber": 6500,
-          "priceUSD": 4745
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $4,800 CAD / per person",
-          "priceNumber": 4800,
-          "priceUSD": 3504
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $3,825 CAD / per person",
-          "priceNumber": 3825,
-          "priceUSD": 2792
-        }
-      ],
-      "portal": "Canada",
-      "originalCurrency": "CAD"
+      "startingPrice": 3825,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 223,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824834,
       "matchNumber": 97,
       "stage": "QUARTER-FINALS",
-      "hostTeam": {
-        "name": "W89",
-        "code": "W89"
-      },
-      "opposingTeam": {
-        "name": "W90",
-        "code": "W90"
-      },
-      "venue": {
-        "name": "Boston Stadium",
-        "code": "NN_BOS",
-        "town": "Foxborough",
-        "country": "United States"
-      },
+      "hostTeam": "W89",
+      "opposingTeam": "W90",
+      "venue": "Boston Stadium",
+      "city": "Foxborough",
+      "country": "United States",
       "matchDate": "July 9",
       "matchDayTime": "Thursday, 4pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,150 USD / per person",
-          "priceNumber": 6150,
-          "priceUSD": 6150
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $5,250 USD / per person",
-          "priceNumber": 5250,
-          "priceUSD": 5250
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,925 USD / per person",
-          "priceNumber": 4925,
-          "priceUSD": 4925
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,500 USD / per person",
-          "priceNumber": 3500,
-          "priceUSD": 3500
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 4300,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 250,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824835,
       "matchNumber": 98,
       "stage": "QUARTER-FINALS",
-      "hostTeam": {
-        "name": "W93",
-        "code": "W93"
-      },
-      "opposingTeam": {
-        "name": "W94",
-        "code": "W94"
-      },
-      "venue": {
-        "name": "Los Angeles Stadium",
-        "code": "NN_LA",
-        "town": "Inglewood",
-        "country": "United States"
-      },
+      "hostTeam": "W93",
+      "opposingTeam": "W94",
+      "venue": "Los Angeles Stadium",
+      "city": "Inglewood",
+      "country": "United States",
       "matchDate": "July 10",
       "matchDayTime": "Friday, 12pm PT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,850 USD / per person",
-          "priceNumber": 6850,
-          "priceUSD": 6850
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $5,950 USD / per person",
-          "priceNumber": 5950,
-          "priceUSD": 5950
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,800 USD / per person",
-          "priceNumber": 4800,
-          "priceUSD": 4800
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $4,500 USD / per person",
-          "priceNumber": 4500,
-          "priceUSD": 4500
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $4,200 USD / per person",
-          "priceNumber": 4200,
-          "priceUSD": 4200
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 4200,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 244,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824836,
       "matchNumber": 99,
       "stage": "QUARTER-FINALS",
-      "hostTeam": {
-        "name": "W91",
-        "code": "W91"
-      },
-      "opposingTeam": {
-        "name": "W92",
-        "code": "W92"
-      },
-      "venue": {
-        "name": "Miami Stadium",
-        "code": "NN_MIA",
-        "town": "Miami Gardens",
-        "country": "United States"
-      },
+      "hostTeam": "W91",
+      "opposingTeam": "W92",
+      "venue": "Miami Stadium",
+      "city": "Miami Gardens",
+      "country": "United States",
       "matchDate": "July 11",
       "matchDayTime": "Saturday, 5pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $8,700 USD / per person",
-          "priceNumber": 8700,
-          "priceUSD": 8700
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $6,200 USD / per person",
-          "priceNumber": 6200,
-          "priceUSD": 6200
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $5,200 USD / per person",
-          "priceNumber": 5200,
-          "priceUSD": 5200
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $4,200 USD / per person",
-          "priceNumber": 4200,
-          "priceUSD": 4200
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $3,000 USD / per person",
-          "priceNumber": 3000,
-          "priceUSD": 3000
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 3000,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 175,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824837,
       "matchNumber": 100,
       "stage": "QUARTER-FINALS",
-      "hostTeam": {
-        "name": "W95",
-        "code": "W95"
-      },
-      "opposingTeam": {
-        "name": "W96",
-        "code": "W96"
-      },
-      "venue": {
-        "name": "Kansas City Stadium",
-        "code": "NN_KC",
-        "town": "Kansas City",
-        "country": "United States"
-      },
+      "hostTeam": "W95",
+      "opposingTeam": "W96",
+      "venue": "Kansas City Stadium",
+      "city": "Kansas City",
+      "country": "United States",
       "matchDate": "July 11",
       "matchDayTime": "Saturday, 8pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $6,450 USD / per person",
-          "priceNumber": 6450,
-          "priceUSD": 6450
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $5,550 USD / per person",
-          "priceNumber": 5550,
-          "priceUSD": 5550
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $4,700 USD / per person",
-          "priceNumber": 4700,
-          "priceUSD": 4700
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $3,825 USD / per person",
-          "priceNumber": 3825,
-          "priceUSD": 3825
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $2,900 USD / per person",
-          "priceNumber": 2900,
-          "priceUSD": 2900
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 2900,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 169,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824838,
       "matchNumber": 101,
       "stage": "SEMI-FINALS",
-      "hostTeam": {
-        "name": "W97",
-        "code": "W97"
-      },
-      "opposingTeam": {
-        "name": "W98",
-        "code": "W98"
-      },
-      "venue": {
-        "name": "Dallas Stadium",
-        "code": "NN_DAL",
-        "town": "Arlington",
-        "country": "United States"
-      },
+      "hostTeam": "W97",
+      "opposingTeam": "W98",
+      "venue": "Dallas Stadium",
+      "city": "Arlington",
+      "country": "United States",
       "matchDate": "July 14",
       "matchDayTime": "Tuesday, 2pm CT",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $12,700 USD / per person",
-          "priceNumber": 12700,
-          "priceUSD": 12700
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $10,925 USD / per person",
-          "priceNumber": 10925,
-          "priceUSD": 10925
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $8,200 USD / per person",
-          "priceNumber": 8200,
-          "priceUSD": 8200
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $8,150 USD / per person",
-          "priceNumber": 8150,
-          "priceUSD": 8150
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 8150,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 474,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824839,
       "matchNumber": 102,
       "stage": "SEMI-FINALS",
-      "hostTeam": {
-        "name": "W99",
-        "code": "W99"
-      },
-      "opposingTeam": {
-        "name": "W100",
-        "code": "W100"
-      },
-      "venue": {
-        "name": "Atlanta Stadium",
-        "code": "NN_ATL",
-        "town": "Atlanta",
-        "country": "United States"
-      },
+      "hostTeam": "W99",
+      "opposingTeam": "W100",
+      "venue": "Atlanta Stadium",
+      "city": "Atlanta",
+      "country": "United States",
       "matchDate": "July 15",
       "matchDayTime": "Wednesday, 3pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $12,100 USD / per person",
-          "priceNumber": 12100,
-          "priceUSD": 12100
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $9,950 USD / per person",
-          "priceNumber": 9950,
-          "priceUSD": 9950
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $8,100 USD / per person",
-          "priceNumber": 8100,
-          "priceUSD": 8100
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $6,750 USD / per person",
-          "priceNumber": 6750,
-          "priceUSD": 6750
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 7850,
+      "startingLounge": "Champions Lounge",
+      "originalCurrency": "MXN",
+      "priceUSD": 457,
+      "portal": "Mexico"
     },
     {
-      "performanceId": 10229203824840,
       "matchNumber": 103,
       "stage": "BRONZE FINAL",
-      "hostTeam": {
-        "name": "BRONZE",
-        "code": "BRZ"
-      },
-      "opposingTeam": {
-        "name": "FIXTURE",
-        "code": "FIX"
-      },
-      "venue": {
-        "name": "Miami Stadium",
-        "code": "NN_MIA",
-        "town": "Miami Gardens",
-        "country": "United States"
-      },
+      "hostTeam": "BRONZE",
+      "opposingTeam": "FIXTURE",
+      "venue": "Miami Stadium",
+      "city": "Miami Gardens",
+      "country": "United States",
       "matchDate": "July 18",
       "matchDayTime": "Saturday, 5pm ET",
-      "countryCode": "US",
-      "lounges": [
-        {
-          "title": "Pitchside Lounge",
-          "priceString": "Starting at $4,600 USD / per person",
-          "priceNumber": 4600,
-          "priceUSD": 4600
-        },
-        {
-          "title": "VIP ",
-          "priceString": "Starting at $3,600 USD / per person",
-          "priceNumber": 3600,
-          "priceUSD": 3600
-        },
-        {
-          "title": "Trophy Lounge",
-          "priceString": "Starting at $3,150 USD / per person",
-          "priceNumber": 3150,
-          "priceUSD": 3150
-        },
-        {
-          "title": "Champions Club",
-          "priceString": "Starting at $2,600 USD / per person",
-          "priceNumber": 2600,
-          "priceUSD": 2600
-        },
-        {
-          "title": "FIFA Pavilion",
-          "priceString": "Starting at $1,950 USD / per person",
-          "priceNumber": 1950,
-          "priceUSD": 1950
-        }
-      ],
-      "portal": "United States",
-      "originalCurrency": "USD"
+      "startingPrice": 1950,
+      "startingLounge": "FIFA Pavilion",
+      "originalCurrency": "MXN",
+      "priceUSD": 114,
+      "portal": "Mexico"
     }
   ]
 }
