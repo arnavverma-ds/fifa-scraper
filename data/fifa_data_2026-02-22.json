@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-02-22T03:25:06.082Z",
+  "scrapedAt": "2026-02-22T12:48:59.640Z",
   "exchangeRates": {
     "USD": 1,
     "AED": 3.67,
@@ -168,7 +168,7 @@
     "ZWG": 25.54,
     "ZWL": 25.54
   },
-  "totalMatches": 100,
+  "totalMatches": 98,
   "matches": [
     {
       "matchNumber": 2,
@@ -292,10 +292,10 @@
       "country": "United States",
       "matchDate": "June 14",
       "matchDayTime": "Sunday, 7pm ET",
-      "startingPrice": 2375,
-      "startingLounge": "Trophy Lounge",
+      "startingPrice": 2200,
+      "startingLounge": "Champions Lounge",
       "originalCurrency": "USD",
-      "priceUSD": 2375,
+      "priceUSD": 2200,
       "portal": "United States"
     },
     {
@@ -484,11 +484,11 @@
       "country": "Canada",
       "matchDate": "June 17",
       "matchDayTime": "Wednesday, 7pm ET",
-      "startingPrice": 3550,
-      "startingLounge": "Champions Lounge",
+      "startingPrice": 3940,
+      "startingLounge": "Trophy Lounge",
       "originalCurrency": "CAD",
-      "priceUSD": 2591,
-      "portal": "Mexico"
+      "priceUSD": 2876,
+      "portal": "United States"
     },
     {
       "matchNumber": 22,
@@ -596,10 +596,10 @@
       "country": "United States",
       "matchDate": "June 19",
       "matchDayTime": "Friday, 9pm ET",
-      "startingPrice": 2490,
-      "startingLounge": "Trophy Lounge",
+      "startingPrice": 2430,
+      "startingLounge": "Champions Lounge",
       "originalCurrency": "USD",
-      "priceUSD": 2490,
+      "priceUSD": 2430,
       "portal": "United States"
     },
     {
@@ -660,11 +660,11 @@
       "country": "Canada",
       "matchDate": "June 20",
       "matchDayTime": "Saturday, 4pm ET",
-      "startingPrice": 3800,
-      "startingLounge": "Trophy Lounge",
+      "startingPrice": 5100,
+      "startingLounge": "Lounge 1930",
       "originalCurrency": "CAD",
-      "priceUSD": 2774,
-      "portal": "Mexico"
+      "priceUSD": 3723,
+      "portal": "United States"
     },
     {
       "matchNumber": 34,
@@ -697,22 +697,6 @@
       "originalCurrency": "USD",
       "priceUSD": 2420,
       "portal": "United States"
-    },
-    {
-      "matchNumber": 36,
-      "stage": "GROUP STAGE MATCHES",
-      "hostTeam": "Tunisia",
-      "opposingTeam": "Japan",
-      "venue": "Monterrey Stadium",
-      "city": "Guadalupe",
-      "country": "Mexico",
-      "matchDate": "June 20",
-      "matchDayTime": "Saturday, 10pm CT",
-      "startingPrice": 62350,
-      "startingLounge": "Champions Lounge",
-      "originalCurrency": "MXN",
-      "priceUSD": 3631,
-      "portal": "Mexico"
     },
     {
       "matchNumber": 37,
@@ -820,10 +804,10 @@
       "country": "United States",
       "matchDate": "June 22",
       "matchDayTime": "Monday, 12pm CT",
-      "startingPrice": 2310,
+      "startingPrice": 2430,
       "startingLounge": "Champions Lounge",
       "originalCurrency": "USD",
-      "priceUSD": 2310,
+      "priceUSD": 2430,
       "portal": "United States"
     },
     {
@@ -1256,7 +1240,7 @@
       "startingLounge": "FIFA Pavilion",
       "originalCurrency": "USD",
       "priceUSD": 4200,
-      "portal": "Mexico"
+      "portal": "United States"
     },
     {
       "matchNumber": 72,
@@ -1316,11 +1300,11 @@
       "country": "Mexico",
       "matchDate": "June 29",
       "matchDayTime": "Monday, 7pm CT",
-      "startingPrice": 77450,
-      "startingLounge": "Champions Lounge",
+      "startingPrice": 99600,
+      "startingLounge": "VIP",
       "originalCurrency": "MXN",
-      "priceUSD": 4511,
-      "portal": "Mexico"
+      "priceUSD": 5801,
+      "portal": "United States"
     },
     {
       "matchNumber": 76,
@@ -1433,22 +1417,6 @@
       "originalCurrency": "USD",
       "priceUSD": 2125,
       "portal": "United States"
-    },
-    {
-      "matchNumber": 83,
-      "stage": "ROUND OF 32",
-      "hostTeam": "2K",
-      "opposingTeam": "2L",
-      "venue": "Toronto Stadium",
-      "city": "Toronto",
-      "country": "Canada",
-      "matchDate": "July 2",
-      "matchDayTime": "Thursday, 7pm ET",
-      "startingPrice": 4350,
-      "startingLounge": "Champions Lounge",
-      "originalCurrency": "CAD",
-      "priceUSD": 3175,
-      "portal": "Mexico"
     },
     {
       "matchNumber": 84,
